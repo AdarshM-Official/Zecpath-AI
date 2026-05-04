@@ -1,0 +1,19 @@
+40. Automotive Electrical Engineer 
+Job Summary 
+An Automotive Electrical Engineer designs, develops, and maintains electrical systems in 
+vehicles, including wiring, lighting, control systems, and electronic modules. 
+Key Responsibilities 
+• Design vehicle electrical architecture and wiring harness systems  
+• Develop and integrate electronic control units (ECUs)  
+• Work on lighting, infotainment, and power distribution systems  
+• Perform diagnostics and troubleshooting of vehicle electrical issues  
+• Ensure compliance with automotive standards like ISO (e.g., ISO 26262 for 
+functional safety)  
+• Collaborate with mechanical and software teams  
+Required Skills 
+• Automotive electrical systems  
+• CAN/LIN communication protocols  
+• Wiring harness design tools  
+• Diagnostics tools (OBD systems)  
+Qualifications 
+• B.E/B.Tech in Electrical / Electronics / Automotive Engineering

@@ -1,0 +1,21 @@
+Commissioning Engineer
+
+Job Summary
+A Commissioning Engineer is responsible for testing, validating, and bringing electrical systems and equipment into operational condition in new or upgraded power plants.
+
+Key Responsibilities
+- Perform pre-commissioning and commissioning activities
+- Test transformers, switchgear, protection systems, and control systems
+- Verify installation against design specifications
+- Troubleshoot issues during startup
+- Prepare commissioning reports and documentation
+- Coordinate with EPC contractors and project teams
+
+Required Skills
+- Testing and validation
+- Electrical system understanding
+- Problem-solving and troubleshooting
+- Knowledge of standards like IEC
+
+Qualifications
+- B.E/B.Tech in Electrical Engineering

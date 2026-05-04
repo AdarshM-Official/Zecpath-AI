@@ -1,0 +1,21 @@
+Instrumentation & Control Engineer
+
+Job Summary
+An Instrumentation & Control Engineer manages measurement and control systems to ensure accurate monitoring and efficient operation of industrial processes.
+
+Key Responsibilities
+- Design and maintain instrumentation systems (sensors, transmitters)
+- Calibrate and troubleshoot instruments
+- Develop control strategies and loops (PID control)
+- Integrate instruments with PLC/DCS systems
+- Ensure process accuracy and stability
+- Maintain compliance with standards like ISA
+
+Required Skills
+- Process instrumentation
+- Control systems (PID tuning)
+- Calibration techniques
+- Field instrumentation knowledge
+
+Qualifications
+- B.E/B.Tech in Instrumentation / Electrical / Electronics

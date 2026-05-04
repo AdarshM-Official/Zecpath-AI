@@ -1,0 +1,21 @@
+57. Reliability Engineer 
+Job Summary 
+A Reliability Engineer focuses on improving the performance, availability, and lifespan of 
+electrical systems and equipment by minimizing failures and optimizing maintenance 
+strategies. 
+Key Responsibilities 
+• Analyze equipment failures and identify root causes (RCA)  
+• Develop reliability-centered maintenance (RCM) strategies  
+• Monitor system performance and downtime metrics  
+• Implement predictive maintenance techniques (condition monitoring)  
+• Improve equipment reliability and reduce operational risks  
+• Use data analytics for performance optimization  
+• Collaborate with maintenance and operations teams  
+• Ensure compliance with reliability standards such as ISO  
+Required Skills 
+• Reliability engineering concepts (MTBF, MTTR)  
+• Data analysis and predictive maintenance  
+• Root Cause Analysis (RCA, FMEA)  
+• Maintenance planning tools  
+Qualifications 
+• B.E/B.Tech in Electrical / Mechanical Engineering

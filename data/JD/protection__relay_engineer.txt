@@ -1,0 +1,19 @@
+Protection & Relay Engineer
+
+Job Summary
+Designs and maintains protection systems that safeguard electrical networks from faults and failures.
+
+Key Responsibilities
+- Design protection schemes for power systems
+- Configure and test relays and circuit breakers
+- Perform fault analysis and coordination studies
+- Ensure system safety and reliability
+- Conduct relay testing and maintenance
+
+Required Skills
+- Relay coordination
+- Fault analysis
+- Knowledge of protection devices
+
+Qualifications
+- B.Tech in Electrical Engineering

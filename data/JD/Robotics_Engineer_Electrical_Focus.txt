@@ -1,0 +1,18 @@
+88. Robotics Engineer (Electrical Focus) 
+Job Summary 
+A Robotics Engineer designs and develops intelligent robotic systems that combine electrical, 
+mechanical, and software components for automation and AI-based applications. 
+Key Responsibilities 
+• Design electrical systems for robots  
+• Integrate sensors, actuators, and control systems  
+• Develop embedded control systems for robotics  
+• Program robotic movement and automation tasks  
+• Test and optimize robot performance  
+• Work on industrial, service, or autonomous robots  
+Required Skills 
+• Embedded systems and control systems  
+• Sensor integration and automation  
+• Basic AI/ML understanding  
+• Programming (C/C++, Python)  
+Qualifications 
+• B.E/B.Tech in Electrical / Robotics / Mechatronics

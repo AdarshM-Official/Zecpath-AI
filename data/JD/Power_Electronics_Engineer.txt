@@ -1,0 +1,18 @@
+43. Power Electronics Engineer 
+Job Summary 
+A Power Electronics Engineer designs and develops electronic circuits that control and 
+convert electrical power in EVs and industrial systems. 
+Key Responsibilities 
+• Design converters (DC-DC, AC-DC, DC-AC inverters)  
+• Develop motor drive systems and controllers  
+• Work on switching devices (IGBT, MOSFET)  
+• Optimize efficiency, thermal performance, and reliability  
+• Perform simulation and testing of power circuits  
+• Ensure compliance with electrical standards such as IEC  
+Required Skills 
+• Power electronics design  
+• Circuit simulation (MATLAB, PLECS, LTspice)  
+• Control systems and motor drives  
+• Thermal management  
+Qualifications 
+• B.E/B.Tech in Electrical / Power Electronics

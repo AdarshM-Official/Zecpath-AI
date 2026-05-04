@@ -1,0 +1,19 @@
+69. High Voltage Testing Engineer 
+Job Summary 
+A High Voltage Testing Engineer specializes in testing and validating high-voltage electrical 
+equipment to ensure safe operation under extreme electrical stress conditions. 
+Key Responsibilities 
+• Conduct high-voltage (HV) tests on equipment like transformers and cables  
+• Perform dielectric, insulation, and breakdown voltage tests  
+• Operate HV testing equipment and safety systems  
+• Analyze test results and identify failure risks  
+• Ensure strict adherence to safety protocols  
+• Prepare detailed technical test reports  
+• Support R&D and certification processes  
+Required Skills 
+• High-voltage engineering concepts  
+• Electrical safety procedures  
+• Testing equipment operation  
+• Fault analysis and interpretation  
+Qualifications 
+• B.E/B.Tech in Electrical Engineering

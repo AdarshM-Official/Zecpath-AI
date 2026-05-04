@@ -1,0 +1,19 @@
+Substation Engineer
+
+Job Summary
+Responsible for the design, installation, operation, and maintenance of electrical substations.
+
+Key Responsibilities
+- Design substation layouts and equipment placement
+- Install and commission transformers, breakers, and relays
+- Monitor substation performance
+- Ensure safety and compliance standards
+- Conduct preventive and corrective maintenance
+
+Required Skills
+- Substation automation systems
+- Protection schemes
+- SCADA systems
+
+Qualifications
+- B.Tech in Electrical Engineering

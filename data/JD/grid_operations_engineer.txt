@@ -1,0 +1,19 @@
+Grid Operations Engineer
+
+Job Summary
+Monitors and controls the power grid in real-time to ensure stable and continuous electricity supply.
+
+Key Responsibilities
+- Monitor grid performance using SCADA systems
+- Manage load dispatch and frequency control
+- Respond to faults and outages
+- Coordinate with generation and distribution units
+- Maintain grid stability
+
+Required Skills
+- SCADA systems
+- Real-time monitoring
+- Decision-making under pressure
+
+Qualifications
+- B.E/B.Tech in Electrical Engineering

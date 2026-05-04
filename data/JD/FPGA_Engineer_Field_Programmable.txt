@@ -1,0 +1,19 @@
+30. FPGA Engineer (Field Programmable 
+Gate Array) 
+Job Summary 
+An FPGA Engineer designs and programs configurable hardware systems using FPGA 
+devices for high-speed and real-time applications. 
+Key Responsibilities 
+• Develop FPGA-based designs using HDL (Verilog/VHDL)  
+• Implement digital logic on FPGA boards  
+• Perform simulation and debugging of FPGA designs  
+• Optimize performance, latency, and power usage  
+• Interface FPGA with processors, memory, and peripherals  
+• Test and validate hardware functionality  
+Required Skills 
+• Verilog / VHDL  
+• Digital design and logic circuits  
+• FPGA tools (Xilinx Vivado, Intel Quartus)  
+• Debugging using logic analyzers  
+Qualifications 
+• B.E/B.Tech in Electronics / Electrical Engineering

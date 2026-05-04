@@ -1,0 +1,22 @@
+Electrical Maintenance Engineer
+
+Job Summary
+An Electrical Maintenance Engineer ensures the reliability, safety, and continuous operation of electrical systems and equipment in industrial facilities through preventive and corrective maintenance.
+
+Key Responsibilities
+- Perform preventive and breakdown maintenance of electrical equipment
+- Maintain motors, transformers, switchgear, panels, and drives
+- Diagnose faults and implement quick repairs to minimize downtime
+- Develop and follow maintenance schedules and SOPs
+- Monitor equipment health and performance trends
+- Ensure compliance with safety standards and procedures
+- Maintain maintenance logs and documentation
+
+Required Skills
+- Troubleshooting and fault diagnosis
+- Knowledge of motors, drives (VFDs), and control panels
+- Maintenance planning and execution
+- Basic PLC and automation understanding
+
+Qualifications
+- Diploma / B.E / B.Tech in Electrical Engineering

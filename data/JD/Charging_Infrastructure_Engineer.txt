@@ -1,0 +1,19 @@
+45. Charging Infrastructure Engineer 
+Job Summary 
+A Charging Infrastructure Engineer designs, installs, and manages EV charging systems and 
+networks, ensuring efficient, safe, and scalable electric vehicle charging solutions. 
+Key Responsibilities 
+• Design EV charging stations (AC & DC fast chargers)  
+• Plan charging infrastructure layout and grid connectivity  
+• Work with power distribution systems and load management  
+• Ensure compliance with standards like IEC  
+• Integrate smart charging and payment systems  
+• Monitor charging station performance and reliability  
+• Support installation, commissioning, and maintenance  
+Required Skills 
+• Power systems and electrical design  
+• EV charging standards (CCS, CHAdeMO, Type 2)  
+• Load management and grid integration  
+• IoT and smart systems  
+Qualifications 
+• B.E/B.Tech in Electrical Engineering

@@ -1,0 +1,21 @@
+DCS Engineer (Distributed Control System)
+
+Job Summary
+A DCS Engineer is responsible for designing, implementing, and maintaining distributed control systems used in large-scale industrial processes.
+
+Key Responsibilities
+- Configure and program DCS systems
+- Develop control strategies for continuous processes
+- Monitor plant operations through DCS interfaces
+- Perform system upgrades and troubleshooting
+- Work with field instruments and controllers
+- Ensure process safety and reliability
+
+Required Skills
+- DCS platforms (Honeywell, ABB, Yokogawa, Emerson)
+- Process control engineering
+- System integration
+- Troubleshooting
+
+Qualifications
+- B.E/B.Tech in Electrical / Instrumentation Engineering

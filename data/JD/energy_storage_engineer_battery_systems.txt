@@ -1,0 +1,21 @@
+Energy Storage Engineer (Battery Systems)
+
+Job Summary
+An Energy Storage Engineer focuses on designing and managing battery systems used for storing energy in renewable and grid applications.
+
+Key Responsibilities
+- Design battery energy storage systems (BESS)
+- Select appropriate battery technologies (Li-ion, etc.)
+- Develop Battery Management Systems (BMS)
+- Perform charge/discharge cycle analysis
+- Ensure safety, thermal management, and system efficiency
+- Integrate storage systems with solar/wind and grid
+
+Required Skills
+- Battery technologies and BMS design
+- Power electronics
+- Thermal management
+- Simulation tools (MATLAB/Simulink)
+
+Qualifications
+- B.E/B.Tech in Electrical / Electronics Engineering

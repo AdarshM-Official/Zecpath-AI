@@ -1,0 +1,20 @@
+58. Control Systems Software Engineer 
+Job Summary 
+A Control Systems Software Engineer develops software that controls and automates 
+industrial systems such as power plants, manufacturing lines, and robotics using real-time 
+control logic. 
+Key Responsibilities 
+• Develop control algorithms for industrial automation systems  
+• Program PLC/DCS/embedded control software  
+• Design feedback control loops (PID, adaptive control)  
+• Integrate hardware with software systems  
+• Test and validate control system performance  
+• Work with real-time operating systems (RTOS)  
+• Collaborate with electrical and instrumentation teams  
+Required Skills 
+• Control systems engineering  
+• Programming (C, C++, Python, MATLAB)  
+• PLC/DCS knowledge  
+• Real-time system development  
+Qualifications 
+• B.E/B.Tech in Electrical / Electronics / Control Engineering

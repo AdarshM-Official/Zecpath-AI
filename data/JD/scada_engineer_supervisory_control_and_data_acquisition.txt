@@ -1,0 +1,21 @@
+SCADA Engineer (Supervisory Control and Data Acquisition)
+
+Job Summary
+A SCADA Engineer develops and manages supervisory control systems for real-time monitoring and control of industrial processes.
+
+Key Responsibilities
+- Design and develop SCADA systems and HMI screens
+- Configure alarms, trends, and data logging systems
+- Integrate PLCs, RTUs, and field devices
+- Monitor plant operations and ensure system reliability
+- Maintain and troubleshoot SCADA software and hardware
+- Ensure data security and system integrity
+
+Required Skills
+- SCADA platforms (WinCC, Wonderware, Ignition)
+- HMI design
+- Networking basics
+- Data visualization
+
+Qualifications
+- B.E/B.Tech in Electrical / Electronics / Instrumentation

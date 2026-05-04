@@ -1,0 +1,19 @@
+59. Electrical Simulation Engineer 
+Job Summary 
+An Electrical Simulation Engineer models and simulates electrical systems to predict 
+performance, optimize design, and reduce real-world testing costs. 
+Key Responsibilities 
+• Build simulation models for electrical systems (power, circuits, machines)  
+• Perform system-level analysis (load flow, transient analysis)  
+• Simulate motor drives, converters, and power systems  
+• Validate designs before physical implementation  
+• Use simulation data to improve efficiency and reliability  
+• Collaborate with design and R&D teams  
+Required Skills 
+• MATLAB/Simulink  
+• PSCAD, ETAP, or similar tools  
+• Electrical machine and power system knowledge  
+• Numerical modeling and analysis  
+Qualifications 
+• B.E/B.Tech in Electrical Engineering  
+• M.Tech preferred for R&D roles

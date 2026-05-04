@@ -1,0 +1,18 @@
+81. Automation Consultant 
+Job Summary 
+An Automation Consultant provides expert solutions for industrial automation systems 
+including PLC, SCADA, robotics, and control systems. 
+Key Responsibilities 
+• Design and optimize industrial automation systems  
+• Recommend PLC/SCADA architectures  
+• Improve manufacturing efficiency through automation  
+• Troubleshoot complex control system issues  
+• Guide digital transformation (Industry 4.0 solutions)  
+• Support system integration and upgrades  
+Required Skills 
+• PLC, SCADA, DCS systems  
+• Industrial automation design  
+• Control systems and robotics basics  
+• System integration knowledge  
+Qualifications 
+• B.E/B.Tech in Electrical / Instrumentation / Automation

@@ -1,0 +1,21 @@
+44. Autonomous Vehicle Engineer 
+Job Summary 
+An Autonomous Vehicle Engineer develops self-driving technologies that enable vehicles to 
+perceive their environment, make decisions, and operate safely without human intervention. 
+Key Responsibilities 
+• Design and develop autonomous driving systems (ADAS & full autonomy)  
+• Integrate sensors such as LiDAR, radar, cameras, and ultrasonic systems  
+• Develop perception, localization, and path-planning algorithms  
+• Work on vehicle control systems and real-time decision-making  
+• Test and validate autonomous systems using simulations and real-world data  
+• Ensure safety compliance with standards like ISO (e.g., ISO 26262)  
+• Collaborate with software, hardware, and AI teams  
+Required Skills 
+• Embedded systems and robotics  
+• AI/ML (computer vision, deep learning)  
+• Programming (Python, C++)  
+• Sensor fusion and data processing  
+• Control systems  
+Qualifications 
+• B.E/B.Tech in Electrical / Electronics / Robotics / Computer Science  
+• M.Tech in Robotics/AI (preferred)

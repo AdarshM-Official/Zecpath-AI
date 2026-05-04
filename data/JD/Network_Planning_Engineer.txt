@@ -1,0 +1,18 @@
+35. Network Planning Engineer 
+Job Summary 
+A Network Planning Engineer is responsible for designing and planning telecom networks to 
+ensure optimal coverage, capacity, and performance. 
+Key Responsibilities 
+• Plan network layouts for new deployments  
+• Perform capacity planning and traffic analysis  
+• Optimize network performance and reduce congestion  
+• Use simulation tools to model network behavior  
+• Coordinate with RF and operations teams  
+• Support network expansion and upgrades  
+Required Skills 
+• Network design and optimization  
+• Data analysis and forecasting  
+• Telecom planning tools  
+• Understanding of cellular technologies  
+Qualifications 
+• B.E/B.Tech in Electronics / Telecommunications

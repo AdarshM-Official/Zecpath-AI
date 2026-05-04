@@ -1,0 +1,21 @@
+Power Plant Engineer
+
+Job Summary
+Responsible for the operation, performance optimization, and reliability of power generation systems.
+
+Key Responsibilities
+- Monitor and control power generation systems and equipment
+- Ensure optimal plant efficiency and output
+- Analyze performance data and implement improvements
+- Coordinate with operations, maintenance, and safety teams
+- Troubleshoot electrical faults and system failures
+- Ensure compliance with regulatory standards
+
+Required Skills
+- Power plant operations knowledge
+- Electrical systems troubleshooting
+- SCADA/DCS systems
+- Data analysis
+
+Qualifications
+- B.E/B.Tech in Electrical Engineering

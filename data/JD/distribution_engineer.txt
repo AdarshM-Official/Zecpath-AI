@@ -1,0 +1,19 @@
+Distribution Engineer
+
+Job Summary
+Handles the design and operation of electrical distribution systems delivering power to end-users.
+
+Key Responsibilities
+- Design distribution networks (LT/HT systems)
+- Load forecasting and demand analysis
+- Minimize power losses and improve efficiency
+- Handle outage management and restoration
+- Coordinate with field teams
+
+Required Skills
+- Distribution system planning
+- GIS tools
+- Load analysis
+
+Qualifications
+- B.Tech/B.E in Electrical Engineering

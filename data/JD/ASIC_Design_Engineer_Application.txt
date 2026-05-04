@@ -1,0 +1,19 @@
+31. ASIC Design Engineer (Application
+Specific Integrated Circuit) 
+Job Summary 
+An ASIC Design Engineer develops custom-designed chips tailored for specific applications 
+such as mobile processors, networking devices, and AI hardware. 
+Key Responsibilities 
+• Design ASIC architecture and logic circuits  
+• Perform RTL design, synthesis, and verification  
+• Conduct power, timing, and area optimization  
+• Work on chip floorplanning and layout  
+• Validate chip functionality before fabrication  
+• Collaborate with verification and fabrication teams  
+Required Skills 
+• HDL (Verilog/VHDL)  
+• ASIC design flow knowledge  
+• EDA tools (Cadence, Synopsys)  
+• Digital and microelectronics fundamentals  
+Qualifications 
+• B.E/B.Tech + M.Tech in Microelectronics/VLSI preferred

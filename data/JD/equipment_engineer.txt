@@ -1,0 +1,21 @@
+Equipment Engineer
+
+Job Summary
+An Equipment Engineer focuses on the performance, reliability, and optimization of specific industrial equipment, ensuring minimal downtime and maximum efficiency.
+
+Key Responsibilities
+- Monitor and improve equipment performance
+- Analyze failures and implement corrective actions
+- Develop maintenance and calibration procedures
+- Coordinate with vendors for equipment upgrades and repairs
+- Maintain technical documentation and reports
+- Support installation and commissioning of new equipment
+
+Required Skills
+- Equipment diagnostics and reliability engineering
+- Root cause analysis (RCA)
+- Preventive maintenance strategies
+- Technical documentation
+
+Qualifications
+- B.E/B.Tech in Electrical / Electronics Engineering

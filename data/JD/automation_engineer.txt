@@ -1,0 +1,21 @@
+Automation Engineer
+
+Job Summary
+An Automation Engineer designs and implements automated systems to improve efficiency, productivity, and safety in industrial operations.
+
+Key Responsibilities
+- Design automation systems using PLC, SCADA, and robotics
+- Improve manufacturing processes through automation
+- Integrate sensors, actuators, and control systems
+- Conduct system testing, validation, and commissioning
+- Collaborate with cross-functional teams
+- Optimize system performance and reduce downtime
+
+Required Skills
+- PLC, SCADA, robotics
+- Industrial automation design
+- Problem-solving and system integration
+- Programming skills (Python, C, etc. – optional advantage)
+
+Qualifications
+- B.E/B.Tech in Electrical / Mechatronics / Automation

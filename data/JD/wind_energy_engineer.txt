@@ -1,0 +1,21 @@
+Wind Energy Engineer
+
+Job Summary
+A Wind Energy Engineer designs, analyzes, and optimizes wind power systems, including turbine performance and wind farm layouts.
+
+Key Responsibilities
+- Conduct wind resource assessment and site analysis
+- Design wind farm layouts and turbine placement
+- Analyze turbine performance and efficiency
+- Monitor wind energy production and optimize output
+- Coordinate installation and maintenance of wind turbines
+- Ensure compliance with safety and environmental standards
+
+Required Skills
+- Wind modeling software (WAsP, WindPRO)
+- Aerodynamics basics
+- Data analysis and forecasting
+- SCADA systems
+
+Qualifications
+- B.E/B.Tech in Electrical / Mechanical Engineering

@@ -1,0 +1,19 @@
+60. AI/ML Engineer (Energy Systems) 
+Job Summary 
+An AI/ML Engineer in Energy Systems applies machine learning and artificial intelligence to 
+optimize power generation, consumption, and grid management. 
+Key Responsibilities 
+• Develop predictive models for energy demand and supply  
+• Implement AI-based fault detection in power systems  
+• Optimize energy consumption using ML algorithms  
+• Work on renewable energy forecasting (solar/wind)  
+• Analyze smart grid data for decision-making  
+• Deploy AI models into real-time energy systems  
+Required Skills 
+• Machine learning (regression, classification, deep learning)  
+• Python, TensorFlow, PyTorch  
+• Data analytics and time-series forecasting  
+• Energy systems knowledge  
+Qualifications 
+• B.E/B.Tech in Electrical / Computer Science  
+• AI/ML specialization preferred

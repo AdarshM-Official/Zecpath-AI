@@ -1,0 +1,20 @@
+89. AI-based Power Systems Engineer 
+Job Summary 
+An AI-based Power Systems Engineer applies artificial intelligence and machine learning to 
+optimize electrical power systems, improve efficiency, and predict failures. 
+Key Responsibilities 
+• Develop AI models for power system optimization  
+• Predict faults and failures in electrical networks  
+• Optimize load flow and energy distribution  
+• Implement AI-based predictive maintenance  
+• Analyze smart grid and energy data  
+• Improve renewable energy forecasting  
+• Deploy AI solutions into real-time systems  
+Required Skills 
+• Machine learning & deep learning  
+• Python, TensorFlow, PyTorch  
+• Power systems engineering  
+• Data analytics and forecasting  
+Qualifications 
+• B.E/B.Tech in Electrical / Computer Science  
+• AI/ML specialization preferred

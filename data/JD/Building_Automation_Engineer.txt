@@ -1,0 +1,18 @@
+52. Building Automation Engineer 
+Job Summary 
+A Building Automation Engineer develops and manages intelligent building systems that 
+automate lighting, HVAC, security, and energy management. 
+Key Responsibilities 
+• Design and implement Building Management Systems (BMS)  
+• Integrate HVAC, lighting, access control, and fire systems  
+• Program automation controllers (PLC/DDC)  
+• Monitor building performance and optimize energy usage  
+• Troubleshoot automation and control system issues  
+• Ensure system cybersecurity and reliability  
+Required Skills 
+• BMS platforms (Siemens, Honeywell, Schneider)  
+• PLC/DDC programming  
+• Networking and IoT basics  
+• Energy management systems  
+Qualifications 
+• B.E/B.Tech in Electrical / Instrumentation Engineering

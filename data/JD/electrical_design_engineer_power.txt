@@ -1,0 +1,19 @@
+Electrical Design Engineer (Power)
+
+Job Summary
+Designs electrical systems for power plants, substations, and industrial projects, ensuring compliance with standards and project requirements.
+
+Key Responsibilities
+- Prepare single-line diagrams (SLD), wiring diagrams
+- Design cable sizing, earthing, and protection systems
+- Select transformers, switchgear, and circuit breakers
+- Ensure compliance with standards like IEEE and IEC
+- Coordinate with civil and mechanical teams
+
+Required Skills
+- AutoCAD, EPLAN
+- Electrical design calculations
+- Knowledge of standards and codes
+
+Qualifications
+- B.E/B.Tech in Electrical Engineering

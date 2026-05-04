@@ -1,0 +1,19 @@
+Transmission Line Engineer
+
+Job Summary
+Designs and manages high-voltage transmission lines to ensure efficient electricity transfer over long distances.
+
+Key Responsibilities
+- Route selection and tower design
+- Conduct line sag and tension calculations
+- Oversee construction and installation
+- Ensure compliance with safety standards
+- Perform line inspections and maintenance planning
+
+Required Skills
+- High-voltage engineering
+- Structural basics for towers
+- PLS-CADD software
+
+Qualifications
+- B.E/B.Tech in Electrical Engineering

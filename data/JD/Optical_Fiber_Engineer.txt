@@ -1,0 +1,18 @@
+38. Optical Fiber Engineer 
+Job Summary 
+An Optical Fiber Engineer designs, installs, and maintains fiber optic communication systems 
+used for high-speed data transmission. 
+Key Responsibilities 
+• Design fiber optic network layouts (FTTH, backbone networks)  
+• Install and splice fiber optic cables  
+• Perform testing using OTDR and power meters  
+• Troubleshoot signal loss and connectivity issues  
+• Ensure proper cable routing and protection  
+• Maintain network documentation and reports  
+Required Skills 
+• Fiber optics principles  
+• Splicing and cable installation  
+• Testing tools (OTDR, fusion splicer)  
+• Network troubleshooting  
+Qualifications 
+• Diploma / B.E/B.Tech in Electronics / Electrical

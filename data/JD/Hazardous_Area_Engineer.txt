@@ -1,0 +1,19 @@
+54. Hazardous Area Engineer 
+Job Summary 
+A Hazardous Area Engineer ensures that electrical systems and equipment are safe for use in 
+explosive or flammable environments such as oil rigs, refineries, and chemical plants. 
+Key Responsibilities 
+• Classify hazardous zones (Zone 0, 1, 2)  
+• Select explosion-proof and intrinsically safe equipment  
+• Design systems to prevent ignition risks  
+• Conduct safety audits and risk assessments  
+• Ensure compliance with standards like ATEX and IECEx  
+• Prepare documentation for regulatory approvals  
+Required Skills 
+• Hazardous area classification  
+• Explosion protection techniques  
+• Safety engineering and risk analysis  
+• Knowledge of international safety standards  
+Qualifications 
+• B.E/B.Tech in Electrical / Instrumentation Engineering  
+• Certification in hazardous area (preferred)

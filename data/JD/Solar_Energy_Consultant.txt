@@ -1,0 +1,18 @@
+79. Solar Energy Consultant 
+Job Summary 
+A Solar Energy Consultant provides expert guidance on designing, installing, and optimizing 
+solar power systems for residential, commercial, and industrial clients. 
+Key Responsibilities 
+• Conduct site feasibility studies for solar installations  
+• Design solar PV systems and recommend capacity  
+• Perform ROI and cost-benefit analysis  
+• Optimize system efficiency and energy yield  
+• Guide clients on government subsidies and policies  
+• Support EPC contractors in project execution  
+Required Skills 
+• Solar PV system design  
+• Energy modeling tools (PVsyst, Helioscope)  
+• Financial analysis (ROI, payback period)  
+• Knowledge of renewable energy policies  
+Qualifications 
+• B.E/B.Tech in Electrical / Renewable Energy

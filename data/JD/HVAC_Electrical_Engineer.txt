@@ -1,0 +1,19 @@
+50. HVAC Electrical Engineer 
+Job Summary 
+An HVAC Electrical Engineer designs, installs, and maintains the electrical and control 
+systems that power Heating, Ventilation, and Air Conditioning (HVAC) systems in buildings. 
+Key Responsibilities 
+• Design electrical systems for HVAC equipment (chillers, AHUs, pumps)  
+• Develop control wiring diagrams and panel layouts  
+• Integrate HVAC systems with automation (BMS/SCADA)  
+• Perform load calculations and power distribution planning  
+• Troubleshoot HVAC electrical and control issues  
+• Ensure compliance with standards like ASHRAE and IEC  
+• Support installation, testing, and commissioning  
+Required Skills 
+• HVAC systems understanding  
+• Electrical control systems  
+• BMS integration  
+• AutoCAD / electrical design tools  
+Qualifications 
+• B.E/B.Tech in Electrical / Mechanical Engineering

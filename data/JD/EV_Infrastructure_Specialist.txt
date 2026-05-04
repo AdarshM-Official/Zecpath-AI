@@ -1,0 +1,18 @@
+86. EV Infrastructure Specialist 
+Job Summary 
+An EV Infrastructure Specialist designs and manages electric vehicle charging networks and 
+infrastructure to support large-scale EV adoption. 
+Key Responsibilities 
+• Plan EV charging station networks (urban & highway)  
+• Design AC and DC fast charging systems  
+• Coordinate grid integration and load management  
+• Ensure compliance with EV charging standards  
+• Implement smart charging and billing systems  
+• Monitor charging station performance  
+Required Skills 
+• Power systems and distribution networks  
+• EV charging technologies  
+• Load balancing and grid integration  
+• IoT-based monitoring systems  
+Qualifications 
+• B.E/B.Tech in Electrical Engineering

@@ -1,0 +1,21 @@
+Industrial Electrical Engineer
+
+Job Summary
+An Industrial Electrical Engineer designs, develops, and optimizes electrical systems used in manufacturing and industrial processes to improve productivity and efficiency.
+
+Key Responsibilities
+- Design and implement industrial electrical systems
+- Optimize energy consumption and reduce operational costs
+- Work on automation systems (PLC, SCADA, DCS)
+- Improve production efficiency through electrical upgrades
+- Collaborate with mechanical and production teams
+- Ensure compliance with standards such as IEC and IEEE
+
+Required Skills
+- Industrial automation (PLC, SCADA)
+- Electrical system design
+- Process understanding
+- Energy management
+
+Qualifications
+- B.E/B.Tech in Electrical Engineering

@@ -1,0 +1,18 @@
+28. PCB Design Engineer 
+Job Summary 
+A PCB Design Engineer creates printed circuit board layouts that connect and support 
+electronic components in hardware systems. 
+Key Responsibilities 
+• Design PCB layouts from schematics  
+• Perform component placement and routing  
+• Ensure signal integrity and EMI/EMC compliance  
+• Generate Gerber files and manufacturing outputs  
+• Collaborate with hardware and manufacturing teams  
+• Optimize designs for cost and performance  
+Required Skills 
+• PCB design tools (Altium Designer, KiCad, Eagle)  
+• PCB layout techniques (multilayer boards, routing)  
+• Knowledge of EMI/EMC standards  
+• Attention to detail  
+Qualifications 
+• B.E/B.Tech / Diploma in Electronics

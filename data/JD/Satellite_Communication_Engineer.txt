@@ -1,0 +1,18 @@
+39. Satellite Communication Engineer 
+Job Summary 
+A Satellite Communication Engineer develops and manages communication systems that use 
+satellites for data transmission, broadcasting, and navigation. 
+Key Responsibilities 
+• Design satellite communication links and systems  
+• Perform link budget analysis and signal calculations  
+• Configure ground stations and antennas  
+• Monitor satellite network performance  
+• Troubleshoot communication issues  
+• Ensure compliance with international standards and regulations  
+Required Skills 
+• RF and microwave engineering  
+• Antenna systems  
+• Signal processing  
+• Satellite link design  
+Qualifications 
+• B.E/B.Tech in Electronics / Communication Engineering

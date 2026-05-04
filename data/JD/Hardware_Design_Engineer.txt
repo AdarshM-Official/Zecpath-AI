@@ -1,0 +1,18 @@
+27. Hardware Design Engineer 
+Job Summary 
+A Hardware Design Engineer is responsible for designing and developing physical electronic 
+hardware systems, including circuit boards and components. 
+Key Responsibilities 
+• Design hardware architecture and system schematics  
+• Select electronic components and ICs  
+• Perform circuit simulation and validation  
+• Collaborate with PCB designers for layout  
+• Conduct prototype testing and debugging  
+• Ensure reliability and manufacturability of hardware  
+Required Skills 
+• Circuit design and analysis  
+• Component selection and datasheet understanding  
+• Signal integrity basics  
+• Simulation tools (LTspice, Proteus)  
+Qualifications 
+• B.E/B.Tech in Electronics / Electrical Engineering

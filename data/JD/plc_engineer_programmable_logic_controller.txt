@@ -1,0 +1,21 @@
+PLC Engineer (Programmable Logic Controller)
+
+Job Summary
+A PLC Engineer designs, programs, and maintains automation systems using PLCs to control industrial machinery and processes.
+
+Key Responsibilities
+- Develop and program PLC logic (Ladder, Function Block, Structured Text)
+- Configure I/O modules, sensors, and actuators
+- Troubleshoot PLC-controlled systems and resolve faults
+- Integrate PLCs with SCADA/HMI systems
+- Perform testing, commissioning, and validation
+- Maintain documentation and backups of PLC programs
+
+Required Skills
+- PLC platforms (Siemens, Allen-Bradley, Mitsubishi)
+- Electrical control systems
+- Troubleshooting and debugging
+- Industrial communication protocols (Modbus, Profibus, Ethernet/IP)
+
+Qualifications
+- Diploma/B.E/B.Tech in Electrical / Electronics / Instrumentation

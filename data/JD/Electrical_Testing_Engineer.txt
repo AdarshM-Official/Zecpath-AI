@@ -1,0 +1,19 @@
+67. Electrical Testing Engineer 
+Job Summary 
+An Electrical Testing Engineer is responsible for testing electrical equipment and systems to 
+ensure proper functionality, safety, and compliance before commissioning or deployment. 
+Key Responsibilities 
+• Perform functional and performance testing of electrical systems  
+• Test motors, transformers, switchgear, and control panels  
+• Conduct insulation, continuity, and earth resistance tests  
+• Identify faults and provide corrective recommendations  
+• Prepare test reports and documentation  
+• Support commissioning activities on-site  
+• Ensure compliance with standards like IEC and IEEE  
+Required Skills 
+• Electrical testing procedures  
+• Use of testing instruments (multimeter, megger, relay tester)  
+• Troubleshooting and diagnostics  
+• Understanding of power systems  
+Qualifications 
+• Diploma / B.E/B.Tech in Electrical Engineering

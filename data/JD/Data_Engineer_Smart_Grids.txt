@@ -1,0 +1,18 @@
+61. Data Engineer (Smart Grids) 
+Job Summary 
+A Data Engineer (Smart Grids) builds and manages data pipelines that collect, process, and 
+analyze electrical grid data for monitoring and optimization. 
+Key Responsibilities 
+• Design data pipelines for smart grid systems  
+• Process real-time energy consumption data  
+• Manage large-scale IoT and sensor data  
+• Develop data storage and analytics systems  
+• Ensure data quality and reliability  
+• Support grid optimization and forecasting  
+Required Skills 
+• Big data tools (Hadoop, Spark)  
+• Python, SQL  
+• IoT data processing  
+• Cloud platforms (AWS, Azure, GCP)  
+Qualifications 
+• B.E/B.Tech in Electrical / Computer Science / IT

@@ -1,0 +1,21 @@
+Electronics Engineer
+
+Job Summary
+An Electronics Engineer designs, develops, tests, and maintains electronic circuits and systems used in devices ranging from consumer electronics to industrial equipment.
+
+Key Responsibilities
+- Design and analyze analog and digital circuits
+- Develop schematics and circuit layouts
+- Test and validate electronic components and systems
+- Troubleshoot circuit issues and improve performance
+- Work with microcontrollers and embedded components
+- Ensure compliance with standards like IEC
+
+Required Skills
+- Analog & digital electronics
+- Circuit simulation (Multisim, LTspice)
+- Oscilloscope, multimeter usage
+- Soldering and prototyping
+
+Qualifications
+- B.E/B.Tech in Electronics / Electrical Engineering

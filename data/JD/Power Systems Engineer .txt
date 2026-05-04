@@ -1,0 +1,39 @@
+1. Power Systems Engineer
+
+Job Summary
+
+A Power Systems Engineer is responsible for designing, analyzing, and optimizing electrical
+
+power systems including generation, transmission, and distribution networks to ensure
+
+reliable and efficient operation.
+
+Key Responsibilities
+
+• Perform load flow, short-circuit, and stability analysis
+
+• Design and evaluate power system networks
+
+• Conduct fault analysis and system protection studies
+
+• Optimize grid performance and reliability
+
+• Integrate renewable energy sources into the grid
+
+• Use simulation tools like ETAP, PSCAD, PSS/E
+
+Required Skills
+
+• Power system analysis
+
+• Electrical network modeling
+
+• MATLAB/Simulink, ETAP
+
+• Strong analytical and problem-solving skills
+
+Qualifications
+
+• B.Tech/B.E in Electrical Engineering
+
+• M.Tech (Power Systems) preferred

@@ -1,0 +1,21 @@
+Shift Engineer (Power Plant)
+
+Job Summary
+Supervises plant operations during assigned shifts, ensuring safe and continuous power generation.
+
+Key Responsibilities
+- Monitor plant parameters
+- Supervise operators and technicians
+- Handle emergencies
+- Maintain logs and reports
+- Coordinate with maintenance teams
+- Ensure safety protocols
+
+Required Skills
+- Real-time decision making
+- Leadership skills
+- SCADA/DCS operation
+- Problem-solving
+
+Qualifications
+- B.E/B.Tech in Electrical Engineering

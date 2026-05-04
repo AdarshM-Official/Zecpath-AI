@@ -1,0 +1,18 @@
+85. Energy Analytics Engineer 
+Job Summary 
+An Energy Analytics Engineer uses data science and analytics to optimize energy generation, 
+distribution, and consumption patterns. 
+Key Responsibilities 
+• Analyze large-scale energy consumption data  
+• Build predictive models for demand forecasting  
+• Optimize energy usage in industries and grids  
+• Develop dashboards for energy monitoring  
+• Identify inefficiencies and recommend improvements  
+• Work with renewable and smart grid datasets  
+Required Skills 
+• Data analytics (Python, SQL, Power BI)  
+• Machine learning basics  
+• Time-series forecasting  
+• Energy systems understanding  
+Qualifications 
+• B.E/B.Tech in Electrical / Computer Science / Data Science

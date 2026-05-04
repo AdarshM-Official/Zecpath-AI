@@ -1,0 +1,19 @@
+87. Renewable Integration Engineer 
+Job Summary 
+A Renewable Integration Engineer focuses on integrating renewable energy sources like solar 
+and wind into existing electrical grids efficiently and safely. 
+Key Responsibilities 
+• Integrate solar, wind, and hybrid systems into grids  
+• Analyze grid stability with renewable penetration  
+• Design energy storage integration (battery systems)  
+• Manage variability and intermittency of renewables  
+• Perform power flow and stability studies  
+• Ensure compliance with grid codes and standards  
+Required Skills 
+• Power systems analysis  
+• Renewable energy technologies  
+• Energy storage systems  
+• Simulation tools (MATLAB, ETAP)  
+Qualifications 
+• B.E/B.Tech in Electrical Engineering  
+• M.Tech in Power Systems preferred

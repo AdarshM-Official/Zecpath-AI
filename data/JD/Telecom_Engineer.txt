@@ -1,0 +1,18 @@
+33. Telecom Engineer 
+Job Summary 
+A Telecom Engineer designs, installs, maintains, and optimizes communication systems 
+including voice, data, and broadband networks. 
+Key Responsibilities 
+• Design and deploy telecom networks (wired & wireless)  
+• Install and configure telecom equipment (routers, switches, base stations)  
+• Monitor network performance and troubleshoot issues  
+• Ensure network uptime, reliability, and quality of service (QoS)  
+• Perform network upgrades and expansions  
+• Coordinate with vendors and field teams  
+Required Skills 
+• Networking fundamentals (IP, routing, switching)  
+• Telecom technologies (2G/3G/4G/5G, VoIP)  
+• Troubleshooting and diagnostics  
+• Basic RF knowledge  
+Qualifications 
+• B.E/B.Tech in Electronics / Telecommunications

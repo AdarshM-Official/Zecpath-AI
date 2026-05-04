@@ -1,0 +1,21 @@
+63. Research Scientist (Electrical) 
+Job Summary 
+A Research Scientist in Electrical Engineering works on advanced technologies, developing 
+new theories, systems, and innovations in power systems, electronics, control systems, and 
+emerging technologies. 
+Key Responsibilities 
+• Conduct advanced research in electrical systems and technologies  
+• Develop prototypes and experimental models  
+• Publish research papers in journals and conferences  
+• Work on funded projects (government or private)  
+• Develop solutions for energy, automation, and electronics challenges  
+• Collaborate with academic and industrial researchers  
+• Test and validate new engineering concepts  
+Required Skills 
+• Strong fundamentals in electrical engineering  
+• Research methodology and technical writing  
+• Simulation tools (MATLAB, Simulink, etc.)  
+• Analytical and problem-solving skills  
+Qualifications 
+• B.E/B.Tech + M.Tech (Electrical Engineering)  
+• PhD preferred for senior roles

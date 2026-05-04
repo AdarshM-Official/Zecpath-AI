@@ -1,0 +1,19 @@
+29. VLSI Design Engineer (Very Large 
+Scale Integration) 
+Job Summary 
+A VLSI Design Engineer designs and develops integrated circuits (ICs) by integrating 
+millions of transistors onto a single chip, used in processors, memory devices, and SoCs. 
+Key Responsibilities 
+• Design digital/analog IC circuits at transistor and gate level  
+• Perform RTL design using Verilog/VHDL  
+• Conduct simulation, synthesis, and timing analysis  
+• Work on physical design (placement & routing)  
+• Perform verification and validation of chip design  
+• Collaborate with fabrication and testing teams  
+Required Skills 
+• Verilog / VHDL (HDL programming)  
+• Digital electronics and CMOS design  
+• EDA tools (Cadence, Synopsys, Mentor Graphics)  
+• Static Timing Analysis (STA)  
+Qualifications 
+• B.E/B.Tech (Electronics) + M.Tech in VLSI preferred

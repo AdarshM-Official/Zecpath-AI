@@ -1,0 +1,18 @@
+26. Embedded Systems Engineer 
+Job Summary 
+An Embedded Systems Engineer develops software and firmware for embedded devices that 
+control hardware systems in real-time applications. 
+Key Responsibilities 
+• Develop embedded firmware using C/C++  
+• Program microcontrollers (ARM, AVR, PIC)  
+• Interface sensors, actuators, and communication modules  
+• Debug and optimize embedded code  
+• Work with real-time operating systems (RTOS)  
+• Test and validate embedded systems  
+Required Skills 
+• Embedded C/C++ programming  
+• Microcontrollers & microprocessors  
+• RTOS basics  
+• Communication protocols (UART, SPI, I2C, CAN)  
+Qualifications 
+• B.E/B.Tech in Electronics / Embedded Systems

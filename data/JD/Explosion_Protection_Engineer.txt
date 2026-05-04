@@ -1,0 +1,22 @@
+56. Explosion Protection Engineer 
+Job Summary 
+An Explosion Protection Engineer designs and ensures electrical and instrumentation systems 
+are safe to operate in explosive atmospheres, preventing ignition risks in hazardous industrial 
+environments. 
+Key Responsibilities 
+• Perform hazardous area classification (Zone 0, 1, 2)  
+• Design explosion protection systems (Ex d, Ex e, Ex i, etc.)  
+• Select certified explosion-proof equipment  
+• Conduct risk assessments and safety audits  
+• Review engineering drawings and ensure compliance  
+• Prepare documentation for certification and inspections  
+• Investigate incidents and implement corrective actions  
+• Ensure compliance with standards like ATEX and IECEx  
+Required Skills 
+• Explosion protection techniques  
+• Hazardous area classification  
+• Safety engineering and compliance  
+• Risk assessment methodologies (HAZOP, HAZID)  
+Qualifications 
+• B.E/B.Tech in Electrical / Instrumentation Engineering  
+• Certification in hazardous area safety (preferred)

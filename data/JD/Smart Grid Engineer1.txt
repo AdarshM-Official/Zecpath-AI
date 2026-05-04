@@ -1,0 +1,19 @@
+15. Smart Grid Engineer 
+Job Summary 
+A Smart Grid Engineer develops advanced electrical grid systems using digital 
+communication, automation, and data analytics to improve efficiency and reliability. 
+Key Responsibilities 
+• Design and implement smart grid technologies  
+• Integrate renewable energy sources into the grid  
+• Work with IoT devices, sensors, and smart meters  
+• Analyze grid data for optimization and fault detection  
+• Develop demand response and energy management systems  
+• Ensure cybersecurity and grid stability  
+Required Skills 
+• Power systems + IT integration  
+• IoT and communication protocols  
+• Data analytics and AI basics  
+• SCADA and automation systems  
+Qualifications 
+• B.E/B.Tech in Electrical Engineering  
+• Knowledge of smart systems or data analytics preferred

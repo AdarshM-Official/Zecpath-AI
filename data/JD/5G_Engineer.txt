@@ -1,0 +1,19 @@
+37. 5G Engineer 
+Job Summary 
+A 5G Engineer designs, deploys, and optimizes fifth-generation mobile networks to deliver 
+ultra-fast data speeds, low latency, and massive device connectivity. 
+Key Responsibilities 
+• Design and plan 5G network architecture (RAN, Core, Transport)  
+• Deploy and configure 5G base stations (gNodeB)  
+• Optimize network performance (latency, throughput, coverage)  
+• Perform network slicing and QoS management  
+• Conduct field testing and drive tests  
+• Troubleshoot network issues and ensure service reliability  
+• Ensure compliance with standards from 3GPP  
+Required Skills 
+• 5G NR architecture and protocols  
+• RF optimization and network planning  
+• LTE/4G fundamentals (as a base)  
+• Tools: TEMS, Atoll, NetAct  
+Qualifications 
+• B.E/B.Tech in Electronics / Telecommunications

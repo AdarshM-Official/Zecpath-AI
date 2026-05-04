@@ -1,0 +1,18 @@
+36. Wireless Communication Engineer 
+Job Summary 
+A Wireless Communication Engineer develops and manages wireless systems that enable 
+communication over radio frequencies, including mobile networks and IoT systems. 
+Key Responsibilities 
+• Design and implement wireless communication systems  
+• Develop protocols and optimize wireless performance  
+• Analyze signal strength, interference, and bandwidth  
+• Work on technologies like Wi-Fi, Bluetooth, and cellular networks  
+• Test and validate wireless systems  
+• Ensure compliance with standards such as 3GPP  
+Required Skills 
+• Wireless communication principles  
+• Signal processing basics  
+• Networking and RF fundamentals  
+• Protocols (LTE, 5G, Wi-Fi)  
+Qualifications 
+• B.E/B.Tech in Electronics / Communication Engineering

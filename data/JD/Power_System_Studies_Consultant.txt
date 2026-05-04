@@ -1,0 +1,19 @@
+83. Power System Studies Consultant 
+Job Summary 
+A Power System Studies Consultant performs advanced analysis of electrical power systems 
+to ensure stability, reliability, and efficiency of electrical networks. 
+Key Responsibilities 
+• Perform load flow, short circuit, and stability studies  
+• Conduct protection coordination analysis  
+• Analyze system faults and grid performance  
+• Optimize transmission and distribution networks  
+• Provide simulation reports for EPC and utility projects  
+• Use software tools like ETAP, PSS/E, PSCAD  
+Required Skills 
+• Power system analysis  
+• Simulation tools (ETAP, MATLAB, PSCAD)  
+• Electrical network modeling  
+• Strong analytical skills  
+Qualifications 
+• B.E/B.Tech in Electrical Engineering  
+• M.Tech (Power Systems) preferred

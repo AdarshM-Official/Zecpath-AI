@@ -1,0 +1,18 @@
+34. RF Engineer (Radio Frequency) 
+Job Summary 
+An RF Engineer designs and optimizes radio frequency systems used in wireless 
+communication such as mobile networks, satellite communication, and broadcasting. 
+Key Responsibilities 
+• Design RF circuits and communication systems  
+• Perform RF testing, tuning, and optimization  
+• Conduct site surveys and signal strength analysis  
+• Optimize antenna placement and network coverage  
+• Analyze interference and improve signal quality  
+• Ensure compliance with regulatory standards  
+Required Skills 
+• RF theory and antenna design  
+• Signal propagation and analysis  
+• RF tools (spectrum analyzers, network analyzers)  
+• Knowledge of wireless standards  
+Qualifications 
+• B.E/B.Tech in Electronics / Communication Engineering
