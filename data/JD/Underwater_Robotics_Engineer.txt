@@ -1,0 +1,15 @@
+Role Overview: Develops advanced underwater robots (AUVs/ROVs) for exploration and inspection.
+Responsibilities:
+• Design robotic systems for underwater operations
+• Develop control systems and navigation algorithms
+• Integrate sensors, cameras, and manipulators
+• Conduct testing in real and simulated environments
+• Support offshore and research missions
+Skills:
+• Robotics and mechatronics
+• Embedded systems and control
+• AI for navigation
+Qualifications:
+• Robotics / Mechatronics / Marine Engineering
+Salary:
+• $5,000 – $12,000/month

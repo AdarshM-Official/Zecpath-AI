@@ -1,0 +1,20 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Fluid Mechanics",
+        "Propulsion Systems",
+        "Thermodynamics"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Mechanical Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Design and analyze propulsion systems (engines, propellers, thrusters)",
+        "Optimize fuel consumption and efficiency",
+        "Conduct performance testing and simulations",
+        "Troubleshoot propulsion-related issues",
+        "Work on advanced systems (electric/hybrid propulsion)"
+    ]
+}

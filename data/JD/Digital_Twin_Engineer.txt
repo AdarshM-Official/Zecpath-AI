@@ -1,18 +1,15 @@
-62. Digital Twin Engineer 
-Job Summary 
-A Digital Twin Engineer creates virtual models of physical electrical systems to simulate, 
-monitor, and optimize real-world operations in real time. 
-Key Responsibilities 
-• Develop digital replicas of physical systems (power plants, grids, machines)  
-• Integrate real-time sensor data into virtual models  
-• Simulate system behavior under different conditions  
-• Predict failures and optimize performance  
-• Work with IoT and cloud-based platforms  
-• Collaborate with engineering and data science teams  
-Required Skills 
-• Digital twin platforms and simulation tools  
-• IoT and sensor integration  
-• Data analytics and modeling  
-• Programming (Python, MATLAB)  
-Qualifications 
-• B.E/B.Tech in Electrical / Mechanical / Computer Science
+Role Overview: Creates virtual replicas of ships and marine systems to simulate performance.
+Responsibilities:
+• Develop digital twin models for vessels and systems
+• Integrate real-time sensor data into simulations
+• Predict failures and optimize maintenance
+• Support decision-making with simulation insights
+• Collaborate with AI and simulation teams
+Skills:
+• Simulation modeling and data integration
+• IoT and real-time analytics
+• Programming (Python, MATLAB)
+Qualifications:
+• Marine / Software / Systems Engineering
+Salary:
+• $5,500 – $13,000/month

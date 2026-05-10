@@ -1,0 +1,17 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Ansys",
+        "Python"
+    ],
+    "experience": "Not Mentioned",
+    "education": [],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Create simulation models for ship systems and operations",
+        "Perform virtual testing (stress, motion, stability)",
+        "Analyze simulation results and optimize designs",
+        "Work with digital twin technologies",
+        "Support design and R&D teams"
+    ]
+}

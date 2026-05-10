@@ -1,0 +1,23 @@
+{
+    "role": "Naval Architect",
+    "skills": [
+        "Autocad",
+        "Aveva Marine",
+        "Marine Engineering",
+        "Naval Architecture",
+        "Rhino"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Naval Architecture",
+        "Marine Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Create ship design concepts and layouts",
+        "Develop 2D/3D CAD models",
+        "Perform stability and basic hydrodynamic analysis",
+        "Modify designs based on client requirements",
+        "Deliver drawings and documentation"
+    ]
+}

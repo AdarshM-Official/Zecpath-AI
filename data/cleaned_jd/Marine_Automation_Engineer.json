@@ -1,0 +1,21 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Automation Systems",
+        "Control Systems",
+        "Plc",
+        "Scada"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Mechatronics"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Design and maintain automation systems (PLC, SCADA)",
+        "Integrate sensors and control units across ship systems",
+        "Monitor automated alarms and safety systems",
+        "Troubleshoot control system failures",
+        "Optimize system performance"
+    ]
+}

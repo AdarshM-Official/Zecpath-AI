@@ -1,0 +1,22 @@
+{
+    "role": "Naval Architect",
+    "skills": [
+        "Ansys",
+        "Fluid Mechanics",
+        "Naval Architecture",
+        "Ocean Engineering"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Naval Architecture",
+        "Ocean Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Perform Computational Fluid Dynamics (CFD) simulations",
+        "Analyze wave resistance, drag, and flow patterns",
+        "Optimize hull shapes and propeller designs",
+        "Conduct model testing in towing tanks",
+        "Improve fuel efficiency and vessel performance"
+    ]
+}

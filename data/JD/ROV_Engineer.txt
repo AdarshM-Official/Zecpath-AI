@@ -1,0 +1,15 @@
+Role Overview: Operates and maintains underwater robotic vehicles (ROVs) used for inspection, repair, and installation.
+Responsibilities:
+• Operate ROV systems for subsea tasks
+• Maintain cameras, sensors, and robotic arms
+• Perform underwater inspections and repairs
+• Support subsea installation projects
+• Analyze video/data collected from ROV missions
+Skills:
+• Robotics and control systems
+• Electronics and hydraulics
+• Remote operation expertise
+Qualifications:
+• Mechatronics / Robotics / Marine Engineering
+Salary:
+• $5,000 – $12,000/month

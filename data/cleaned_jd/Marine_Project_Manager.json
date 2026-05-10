@@ -1,0 +1,22 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Leadership",
+        "Marine Engineering",
+        "Project Management",
+        "Shipbuilding"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Mechanical Engineering",
+        "Marine Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Plan project timelines, budgets, and resources",
+        "Coordinate between design, procurement, and production teams",
+        "Track milestones and manage risks",
+        "Communicate with clients and stakeholders",
+        "Ensure quality and regulatory compliance"
+    ]
+}

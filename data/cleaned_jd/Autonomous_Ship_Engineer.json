@@ -1,0 +1,19 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Computer Vision",
+        "Control Systems"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Robotics"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Develop autonomous navigation systems and algorithms",
+        "Integrate sensors (LiDAR, radar, GPS, cameras)",
+        "Design collision avoidance and route optimization systems",
+        "Test autonomous vessel performance in simulations and trials",
+        "Ensure compliance with safety standards (IMO MASS)"
+    ]
+}

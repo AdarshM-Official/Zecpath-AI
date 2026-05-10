@@ -1,0 +1,15 @@
+Role Overview: Designs and manages integrated control systems that monitor and control ship operations.
+Responsibilities:
+• Develop control logic for propulsion and auxiliary systems
+• Integrate sensors, actuators, and monitoring systems
+• Maintain alarm and safety shutdown systems
+• Work with automation platforms and software
+• Ensure system reliability and redundancy
+Skills:
+• Control systems engineering
+• Embedded systems & instrumentation
+• Software integration
+Qualifications:
+• Electronics / Control Systems Engineering
+Salary:
+• $4,000 – $9,500/month

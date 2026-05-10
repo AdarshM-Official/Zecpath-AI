@@ -1,0 +1,20 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Marine Engineering",
+        "Safety Management"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Mechanical Engineering",
+        "Marine Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Operate oil processing systems onboard FPSO",
+        "Monitor storage, offloading, and safety systems",
+        "Maintain pumps, compressors, and separation units",
+        "Ensure compliance with offshore regulations",
+        "Coordinate with tanker loading operations"
+    ]
+}

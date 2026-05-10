@@ -1,0 +1,22 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Maintenance Planning",
+        "Mechanical Troubleshooting"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Mechanical Engineering",
+        "B.Tech",
+        "B.E"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Plan and execute preventive maintenance schedules",
+        "Inspect engines, pumps, compressors, and auxiliary systems",
+        "Diagnose faults and perform repairs",
+        "Maintain maintenance logs and technical records",
+        "Monitor equipment performance and reliability",
+        "Ensure compliance with safety and environmental standards"
+    ]
+}

@@ -1,0 +1,15 @@
+Role Overview: Handles automation and smart control systems that enable modern ships to operate efficiently.
+Responsibilities:
+• Design and maintain automation systems (PLC, SCADA)
+• Integrate sensors and control units across ship systems
+• Monitor automated alarms and safety systems
+• Troubleshoot control system failures
+• Optimize system performance
+Skills:
+• PLC programming (Siemens, Allen-Bradley)
+• SCADA systems
+• Industrial automation
+Qualifications:
+• Electronics / Instrumentation / Mechatronics
+Salary:
+• $4,000 – $9,000/month

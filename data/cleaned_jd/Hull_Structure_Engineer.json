@@ -1,0 +1,19 @@
+{
+    "role": "Naval Architect",
+    "skills": [
+        "Ansys",
+        "Naval Architecture"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Naval Architecture"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Design hull structures (frames, bulkheads, decks)",
+        "Perform structural analysis using FEA tools",
+        "Calculate load distribution and stress analysis",
+        "Ensure compliance with classification rules (e.g., DNV)",
+        "Optimize weight vs strength"
+    ]
+}

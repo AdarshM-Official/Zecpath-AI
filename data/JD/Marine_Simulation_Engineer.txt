@@ -1,0 +1,15 @@
+Role Overview: Develops and uses advanced simulation models to predict marine system behavior.
+Responsibilities:
+• Create simulation models for ship systems and operations
+• Perform virtual testing (stress, motion, stability)
+• Analyze simulation results and optimize designs
+• Work with digital twin technologies
+• Support design and R&D teams
+Skills:
+• Simulation tools (MATLAB, ANSYS, Simulink)
+• Programming (Python, C++)
+• Data modeling and analysis
+Qualifications:
+• Marine / Mechanical / Software Engineering
+Salary:
+• $4,000 – $9,500/month

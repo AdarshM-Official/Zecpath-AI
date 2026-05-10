@@ -1,0 +1,19 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Marine Engineering",
+        "Power Systems"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Marine Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Design and maintain power generation and distribution systems",
+        "Manage generators, switchboards, and transformers",
+        "Troubleshoot electrical faults and failures",
+        "Ensure compliance with maritime electrical standards (IEC)",
+        "Support energy efficiency and load management"
+    ]
+}

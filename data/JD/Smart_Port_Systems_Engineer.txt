@@ -1,0 +1,15 @@
+Role Overview: Develops digital and automated systems for modern smart ports.
+Responsibilities:
+• Design port automation systems (IoT, AI-based logistics)
+• Integrate cargo handling, tracking, and traffic systems
+• Optimize port operations using data analytics
+• Implement smart surveillance and safety systems
+• Work with port authorities and logistics providers
+Skills:
+• IoT systems and cloud computing
+• Logistics optimization
+• Data analytics
+Qualifications:
+• Computer Science / Marine / Industrial Engineering
+Salary:
+• $4,500 – $11,000/month

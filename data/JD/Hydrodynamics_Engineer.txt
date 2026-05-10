@@ -1,0 +1,15 @@
+Role Overview: Specializes in fluid flow behavior around ships, optimizing hull design and propulsion.
+Responsibilities:
+• Perform Computational Fluid Dynamics (CFD) simulations
+• Analyze wave resistance, drag, and flow patterns
+• Optimize hull shapes and propeller designs
+• Conduct model testing in towing tanks
+• Improve fuel efficiency and vessel performance
+Skills:
+• Fluid mechanics and hydrodynamics
+• CFD tools (ANSYS Fluent, STAR-CCM+)
+• Mathematical modeling
+Qualifications:
+• Naval Architecture / Ocean Engineering
+Salary:
+• $4,000 – $10,000/month

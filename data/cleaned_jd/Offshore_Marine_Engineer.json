@@ -1,0 +1,22 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Marine Engineering",
+        "Marine Systems",
+        "Offshore Safety",
+        "Power Systems"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Mechanical Engineering",
+        "Marine Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Maintain and operate marine equipment on offshore installations",
+        "Support rig positioning, ballast control, and stability systems",
+        "Monitor propulsion and power systems on offshore vessels",
+        "Ensure compliance with offshore safety standards (IMO guidelines)",
+        "Coordinate with drilling, subsea, and operations teams"
+    ]
+}

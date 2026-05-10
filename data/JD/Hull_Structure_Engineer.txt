@@ -1,0 +1,15 @@
+Role Overview: Specializes in the structural strength and integrity of the ship’s hull.
+Responsibilities:
+• Design hull structures (frames, bulkheads, decks)
+• Perform structural analysis using FEA tools
+• Calculate load distribution and stress analysis
+• Ensure compliance with classification rules (e.g., DNV)
+• Optimize weight vs strength
+Skills:
+• Structural analysis (ANSYS, NASTRAN)
+• Materials science (steel, composites)
+• Problem-solving
+Qualifications:
+• Naval Architecture / Structural Engineering
+Salary:
+• $3,000 – $7,000/month

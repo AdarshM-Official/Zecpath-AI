@@ -1,0 +1,21 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Control Systems",
+        "Marine Engineering"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Mechatronics",
+        "Marine Engineering",
+        "Robotics"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Design robotic systems for underwater operations",
+        "Develop control systems and navigation algorithms",
+        "Integrate sensors, cameras, and manipulators",
+        "Conduct testing in real and simulated environments",
+        "Support offshore and research missions"
+    ]
+}

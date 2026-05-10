@@ -1,0 +1,24 @@
+{
+    "role": "Naval Architect",
+    "skills": [
+        "Ansys",
+        "Data Analysis",
+        "Marine Systems",
+        "Naval Architecture",
+        "Ocean Engineering",
+        "Python"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Naval Architecture",
+        "Ocean Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Perform CFD simulations for fluid flow and resistance analysis",
+        "Analyze propulsion efficiency and hull performance",
+        "Create simulation models for marine systems",
+        "Deliver technical reports and optimization recommendations",
+        "Support R&D and design teams"
+    ]
+}

@@ -1,0 +1,15 @@
+Role Overview: Provides advanced simulation services for ship design.
+Responsibilities:
+• Perform CFD simulations for fluid flow and resistance analysis
+• Analyze propulsion efficiency and hull performance
+• Create simulation models for marine systems
+• Deliver technical reports and optimization recommendations
+• Support R&D and design teams
+Skills:
+• CFD tools (ANSYS Fluent, STAR-CCM+)
+• Programming (Python, MATLAB)
+• Data analysis and modeling
+Qualifications:
+• Naval Architecture / Mechanical / Ocean Engineering
+Earnings:
+• $30 – $150/hour

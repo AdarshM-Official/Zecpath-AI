@@ -1,0 +1,20 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Data Analysis",
+        "Fmea",
+        "Hazop",
+        "Marine Systems",
+        "Risk Assessment"
+    ],
+    "experience": "Not Mentioned",
+    "education": [],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Perform risk assessments (HAZID, HAZOP, FMEA)",
+        "Analyze system failures and reliability data",
+        "Develop mitigation strategies",
+        "Improve system performance and uptime",
+        "Support safety and maintenance teams"
+    ]
+}

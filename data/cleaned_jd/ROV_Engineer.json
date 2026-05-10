@@ -1,0 +1,23 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Control Systems",
+        "Hydraulics",
+        "Marine Engineering",
+        "Rov Systems"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Mechatronics",
+        "Marine Engineering",
+        "Robotics"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Operate ROV systems for subsea tasks",
+        "Maintain cameras, sensors, and robotic arms",
+        "Perform underwater inspections and repairs",
+        "Support subsea installation projects",
+        "Analyze video/data collected from ROV missions"
+    ]
+}

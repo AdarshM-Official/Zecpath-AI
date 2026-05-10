@@ -1,0 +1,27 @@
+{
+    "role": "Naval Architect",
+    "skills": [
+        "Autocad",
+        "Maxsurf",
+        "Naval Architecture",
+        "Ocean Engineering",
+        "Rhino"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Naval Architecture",
+        "B.Tech",
+        "B.E",
+        "Ocean Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Design ship hull forms and general arrangements",
+        "Perform stability, buoyancy, and hydrostatic calculations",
+        "Conduct resistance and propulsion analysis",
+        "Ensure compliance with classification rules (e.g., ABS)",
+        "Collaborate with structural, mechanical, and electrical teams",
+        "Review design drawings and approve final layouts",
+        "Optimize vessel performance and fuel efficiency"
+    ]
+}

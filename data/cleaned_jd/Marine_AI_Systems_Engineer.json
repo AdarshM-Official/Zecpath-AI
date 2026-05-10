@@ -1,0 +1,24 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Machine Learning",
+        "Marine Engineering",
+        "Marine Operations",
+        "Marine Systems",
+        "Python",
+        "Pytorch",
+        "Tensorflow"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Marine Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Develop AI models for predictive maintenance and fault detection",
+        "Analyze ship operational data for optimization",
+        "Build intelligent decision-support systems",
+        "Integrate AI into navigation, logistics, and energy systems",
+        "Work with big data and cloud platforms"
+    ]
+}

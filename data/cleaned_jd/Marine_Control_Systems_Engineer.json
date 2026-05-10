@@ -1,0 +1,16 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Control Systems"
+    ],
+    "experience": "Not Mentioned",
+    "education": [],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Develop control logic for propulsion and auxiliary systems",
+        "Integrate sensors, actuators, and monitoring systems",
+        "Maintain alarm and safety shutdown systems",
+        "Work with automation platforms and software",
+        "Ensure system reliability and redundancy"
+    ]
+}

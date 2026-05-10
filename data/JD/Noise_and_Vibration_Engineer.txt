@@ -1,0 +1,15 @@
+Role Overview: Ensures reduced noise and vibration levels in ships for safety, comfort, and structural integrity.
+Responsibilities:
+• Analyze vibration and acoustic behavior of ship systems
+• Conduct NVH testing and simulations
+• Identify sources of noise and vibration
+• Recommend design improvements and damping solutions
+• Ensure compliance with maritime comfort standards
+Skills:
+• Acoustics and vibration analysis
+• Signal processing
+• Simulation tools (MATLAB, ANSYS)
+Qualifications:
+• Mechanical / Aerospace / Marine Engineering
+Salary:
+• $4,000 – $9,500/month

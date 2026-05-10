@@ -1,0 +1,17 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Marine Systems",
+        "Python"
+    ],
+    "experience": "Not Mentioned",
+    "education": [],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Develop digital twin models for vessels and systems",
+        "Integrate real-time sensor data into simulations",
+        "Predict failures and optimize maintenance",
+        "Support decision-making with simulation insights",
+        "Collaborate with AI and simulation teams"
+    ]
+}

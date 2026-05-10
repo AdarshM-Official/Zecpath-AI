@@ -1,0 +1,15 @@
+Role Overview: Applies AI and ML to optimize marine operations, maintenance, and safety.
+Responsibilities:
+• Develop AI models for predictive maintenance and fault detection
+• Analyze ship operational data for optimization
+• Build intelligent decision-support systems
+• Integrate AI into navigation, logistics, and energy systems
+• Work with big data and cloud platforms
+Skills:
+• Machine learning (Python, TensorFlow, PyTorch)
+• Data analytics
+• Marine systems knowledge
+Qualifications:
+• AI / Data Science / Marine Engineering
+Salary:
+• $5,500 – $13,000/month

@@ -1,0 +1,15 @@
+Role Overview: Designs and develops self-navigating ships using automation and sensors.
+Key Responsibilities:
+• Develop autonomous navigation systems and algorithms
+• Integrate sensors (LiDAR, radar, GPS, cameras)
+• Design collision avoidance and route optimization systems
+• Test autonomous vessel performance in simulations and trials
+• Ensure compliance with safety standards (IMO MASS)
+Required Skills:
+• Robotics and autonomous systems
+• AI/ML and computer vision
+• Control systems engineering
+Qualifications:
+• Robotics / Marine / AI Engineering
+Salary Range:
+• $5,000 – $12,000/month

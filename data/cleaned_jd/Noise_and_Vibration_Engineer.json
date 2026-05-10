@@ -1,0 +1,19 @@
+{
+    "role": "Unknown",
+    "skills": [
+        "Ansys",
+        "Marine Engineering"
+    ],
+    "experience": "Not Mentioned",
+    "education": [
+        "Marine Engineering"
+    ],
+    "salary_range": "Not Mentioned",
+    "responsibilities": [
+        "Analyze vibration and acoustic behavior of ship systems",
+        "Conduct NVH testing and simulations",
+        "Identify sources of noise and vibration",
+        "Recommend design improvements and damping solutions",
+        "Ensure compliance with maritime comfort standards"
+    ]
+}
