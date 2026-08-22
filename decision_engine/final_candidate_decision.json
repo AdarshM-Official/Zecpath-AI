@@ -1,0 +1,42 @@
+{
+    "candidate_id": "C_FINAL_01",
+    "job_id": "JOB_PYTHON_001",
+    "generated_at": "2026-08-21T08:55:12.934778",
+    "hiring_fit_score": 82.5,
+    "round_scores": {
+        "ats": 82.0,
+        "screening": 78.0,
+        "hr_interview": 80.0,
+        "technical_interview": 85.0,
+        "machine_test": 83.0
+    },
+    "score_based_decision": "SELECTED",
+    "final_decision": "SELECTED",
+    "decision_confidence": {
+        "score": 85.0,
+        "level": "HIGH"
+    },
+    "critical_score_issues": [],
+    "integrity_review": {
+        "level": "LOW",
+        "requires_review": false,
+        "reason": null
+    },
+    "behavioral_review": {
+        "level": "LOW",
+        "requires_review": false,
+        "reason": null
+    },
+    "missing_rounds": [],
+    "reasons": [
+        "Candidate achieved a strong overall hiring-fit score."
+    ],
+    "explanation": [
+        "Final Hiring Fit Score: 82.5%.",
+        "Decision confidence: 85.0%.",
+        "Candidate achieved a strong overall hiring-fit score.",
+        "No blocking review conditions were identified."
+    ],
+    "human_review_required": false,
+    "decision_note": "The recommendation is a decision-support output. Final employment decisions should remain subject to authorized human review."
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "skill": "Python",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    
+    {
+        "skill": "Docker",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Communication",
+        "category": "Business",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Leadership",
+        "category": "Business",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Node.Js",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Git",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Sql",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Aws",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    {
+        "skill": "React",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Django",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Agile",
+        "category": "Business",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Flask",
+        "category": "Technical",
+        "confidence": 1.0
+    },
+    {
+        "skill": "Machine Learning",
+        "category": "Technical",
+        "confidence": 0.9
+    },
+    {
+        "skill": "Mongodb",
+        "category": "Technical",
+        "confidence": 0.85
+    },
+    {
+        "skill": "Express",
+        "category": "Technical",
+        "confidence": 0.85
+    }
+]

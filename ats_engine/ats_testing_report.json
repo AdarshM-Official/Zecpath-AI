@@ -1,0 +1,37 @@
+{
+    "testing_summary": {
+        "total_test_cases": 6,
+        "tech_roles": 4,
+        "non_tech_roles": 2,
+        "fresher_profiles": 2,
+        "senior_profiles": 2
+    },
+    "accuracy_metrics": {
+        "accuracy": 0.67,
+        "precision": 1.0,
+        "recall": 0.67
+    },
+    "mismatch_cases": [
+        {
+            "candidate_id": "C102",
+            "role": "Data Scientist",
+            "profile": "Tech - Senior",
+            "manual_decision": "Shortlisted",
+            "ai_decision": "Review"
+        },
+        {
+            "candidate_id": "C106",
+            "role": "Software Engineer",
+            "profile": "Tech - Fresher",
+            "manual_decision": "Rejected",
+            "ai_decision": "Review"
+        }
+    ],
+    "improvement_backlog": [
+        "Improve semantic similarity for non-technical roles.",
+        "Enhance experience relevance scoring.",
+        "Expand skill dictionary for niche technologies.",
+        "Improve handling of fresher resumes with academic projects.",
+        "Fine-tune ATS scoring thresholds for different job roles."
+    ]
+}

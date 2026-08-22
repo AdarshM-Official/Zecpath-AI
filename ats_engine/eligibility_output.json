@@ -1,0 +1,171 @@
+{
+    "job_role": "Software Engineer",
+    "total_candidates": 4,
+    "summary": {
+        "eligible": 1,
+        "review": 1,
+        "rejected": 2
+    },
+    "candidates": [
+        {
+            "candidate_id": "C101",
+            "candidate_name": "Rahul",
+            "job_role": "Software Engineer",
+            "eligibility": {
+                "status": "Eligible",
+                "ats_score": 88,
+                "minimum_ats_score": 70,
+                "mandatory_skills": {
+                    "required": [
+                        "python",
+                        "django"
+                    ],
+                    "matched": [
+                        "python",
+                        "django"
+                    ],
+                    "missing": []
+                },
+                "experience": {
+                    "candidate": 2,
+                    "minimum": 1,
+                    "maximum": 5,
+                    "valid": true
+                },
+                "location": {
+                    "candidate": "Kerala",
+                    "allowed": [
+                        "kerala",
+                        "bangalore",
+                        "hyderabad",
+                        "remote"
+                    ],
+                    "valid": true
+                },
+                "reasons": [
+                    "Candidate satisfies all eligibility requirements"
+                ]
+            }
+        },
+        {
+            "candidate_id": "C102",
+            "candidate_name": "Anjali",
+            "job_role": "Software Engineer",
+            "eligibility": {
+                "status": "Review",
+                "ats_score": 66,
+                "minimum_ats_score": 70,
+                "mandatory_skills": {
+                    "required": [
+                        "python",
+                        "django"
+                    ],
+                    "matched": [
+                        "python",
+                        "django"
+                    ],
+                    "missing": []
+                },
+                "experience": {
+                    "candidate": 2,
+                    "minimum": 1,
+                    "maximum": 5,
+                    "valid": true
+                },
+                "location": {
+                    "candidate": "Kerala",
+                    "allowed": [
+                        "kerala",
+                        "bangalore",
+                        "hyderabad",
+                        "remote"
+                    ],
+                    "valid": true
+                },
+                "reasons": [
+                    "ATS score is below the eligibility cutoff"
+                ]
+            }
+        },
+        {
+            "candidate_id": "C103",
+            "candidate_name": "John",
+            "job_role": "Software Engineer",
+            "eligibility": {
+                "status": "Rejected",
+                "ats_score": 85,
+                "minimum_ats_score": 70,
+                "mandatory_skills": {
+                    "required": [
+                        "python",
+                        "django"
+                    ],
+                    "matched": [],
+                    "missing": [
+                        "python",
+                        "django"
+                    ]
+                },
+                "experience": {
+                    "candidate": 3,
+                    "minimum": 1,
+                    "maximum": 5,
+                    "valid": true
+                },
+                "location": {
+                    "candidate": "Kerala",
+                    "allowed": [
+                        "kerala",
+                        "bangalore",
+                        "hyderabad",
+                        "remote"
+                    ],
+                    "valid": true
+                },
+                "reasons": [
+                    "Missing mandatory skills: python, django"
+                ]
+            }
+        },
+        {
+            "candidate_id": "C104",
+            "candidate_name": "Priya",
+            "job_role": "Software Engineer",
+            "eligibility": {
+                "status": "Rejected",
+                "ats_score": 90,
+                "minimum_ats_score": 70,
+                "mandatory_skills": {
+                    "required": [
+                        "python",
+                        "django"
+                    ],
+                    "matched": [
+                        "python",
+                        "django"
+                    ],
+                    "missing": []
+                },
+                "experience": {
+                    "candidate": 7,
+                    "minimum": 1,
+                    "maximum": 5,
+                    "valid": false
+                },
+                "location": {
+                    "candidate": "Kerala",
+                    "allowed": [
+                        "kerala",
+                        "bangalore",
+                        "hyderabad",
+                        "remote"
+                    ],
+                    "valid": true
+                },
+                "reasons": [
+                    "Experience is outside the required range"
+                ]
+            }
+        }
+    ]
+}

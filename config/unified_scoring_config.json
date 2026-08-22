@@ -1,0 +1,32 @@
+{
+  "default_weights": {
+    "ats": 0.15,
+    "screening": 0.15,
+    "hr": 0.20,
+    "technical": 0.25,
+    "machine_test": 0.25
+  },
+  "role_weights": {
+    "junior_developer": {
+      "ats": 0.15,
+      "screening": 0.15,
+      "hr": 0.20,
+      "technical": 0.30,
+      "machine_test": 0.20
+    },
+    "senior_developer": {
+      "ats": 0.10,
+      "screening": 0.10,
+      "hr": 0.20,
+      "technical": 0.25,
+      "machine_test": 0.35
+    },
+    "manager": {
+      "ats": 0.20,
+      "screening": 0.20,
+      "hr": 0.40,
+      "technical": 0.20,
+      "machine_test": 0.0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "overall_score_thresholds": {
+    "strong": 80,
+    "weak": 60
+  },
+  "question_score_thresholds": {
+    "excellent": 85,
+    "poor": 50
+  },
+  "max_retries": 2,
+  "use_ml_intent": false
+}

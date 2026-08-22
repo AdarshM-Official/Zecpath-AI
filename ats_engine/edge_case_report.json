@@ -1,0 +1,133 @@
+{
+    "report_name": "Zecpath AI Edge Case and Failure Handling Report",
+    "generated_at": "2026-08-20T10:14:19.238499",
+    "total_tests": 5,
+    "test_results": [
+        {
+            "test_name": "Normal Response",
+            "result": {
+                "question_id": "SKILL_001",
+                "status": "SUCCESS",
+                "action": "ACCEPT",
+                "answer": "My strongest skills are Python, Django and SQL.",
+                "audio_quality": 0.9,
+                "stt_confidence": 0.95,
+                "noise": {
+                    "detected": false,
+                    "noise_level": 0.1,
+                    "severity": "Low"
+                },
+                "language_analysis": {
+                    "detected": false,
+                    "languages": [
+                        "English"
+                    ]
+                },
+                "message": "Response accepted successfully."
+            }
+        },
+        {
+            "test_name": "Poor Audio",
+            "result": {
+                "question_id": "EXP_001",
+                "status": "RETRY_REQUIRED",
+                "error_type": "LOW_STT_CONFIDENCE",
+                "retry_count": 1,
+                "action": "RETRY",
+                "message": "I may not have captured your response correctly. Could you please repeat it?",
+                "clarification": "Could you describe your work, internship, or project experience?"
+            }
+        },
+        {
+            "test_name": "Missing Answer",
+            "result": {
+                "question_id": "SALARY_001",
+                "status": "RETRY_REQUIRED",
+                "error_type": "MISSING_ANSWER",
+                "retry_count": 1,
+                "action": "RETRY",
+                "message": "I did not receive an answer. Please take your time and respond when ready.",
+                "clarification": "Could you provide your expected salary or an approximate salary range?"
+            }
+        },
+        {
+            "test_name": "Background Noise",
+            "result": {
+                "question_id": "NOTICE_001",
+                "status": "RETRY_REQUIRED",
+                "error_type": "BACKGROUND_NOISE",
+                "retry_count": 1,
+                "action": "RETRY",
+                "message": "There seems to be significant background noise. If possible, please move to a quieter place and repeat your answer.",
+                "clarification": "When would you be available to join?"
+            }
+        },
+        {
+            "test_name": "Language Mixing",
+            "result": {
+                "question_id": "SKILL_002",
+                "status": "SUCCESS",
+                "action": "ACCEPT",
+                "answer": "I have experience in Python and Django and ഞാൻ academic projects ചെയ്തിട്ടുണ്ട്.",
+                "audio_quality": 0.8,
+                "stt_confidence": 0.82,
+                "noise": {
+                    "detected": false,
+                    "noise_level": 0.15,
+                    "severity": "Low"
+                },
+                "language_analysis": {
+                    "detected": true,
+                    "languages": [
+                        "English",
+                        "Malayalam"
+                    ]
+                },
+                "message": "Response accepted successfully."
+            }
+        }
+    ],
+    "error_summary": {
+        "generated_at": "2026-08-20T10:14:19.238499",
+        "total_errors": 3,
+        "retry_counts": {
+            "SKILL_001": 0,
+            "EXP_001": 1,
+            "SALARY_001": 1,
+            "NOTICE_001": 1,
+            "SKILL_002": 0
+        },
+        "errors": [
+            {
+                "timestamp": "2026-08-20T10:14:19.237491",
+                "question_id": "EXP_001",
+                "error_type": "LOW_STT_CONFIDENCE",
+                "details": {
+                    "detected": true,
+                    "problems": [
+                        "Audio quality is below acceptable threshold.",
+                        "Speech-to-text confidence is low."
+                    ]
+                }
+            },
+            {
+                "timestamp": "2026-08-20T10:14:19.237491",
+                "question_id": "SALARY_001",
+                "error_type": "MISSING_ANSWER",
+                "details": {
+                    "answer": ""
+                }
+            },
+            {
+                "timestamp": "2026-08-20T10:14:19.237491",
+                "question_id": "NOTICE_001",
+                "error_type": "BACKGROUND_NOISE",
+                "details": {
+                    "detected": true,
+                    "noise_level": 0.85,
+                    "severity": "High"
+                }
+            }
+        ]
+    }
+}

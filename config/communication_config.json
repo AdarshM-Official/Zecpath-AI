@@ -1,0 +1,14 @@
+{
+  "weights": {
+    "fluency": 0.15,
+    "grammar": 0.20,
+    "vocabulary": 0.15,
+    "clarity": 0.20,
+    "filler": 0.10,
+    "structure": 0.20
+  },
+  "filler_words": ["um", "uh", "like", "you know", "actually", "basically"],
+  "readability": {
+    "target_score": 70
+  }
+}

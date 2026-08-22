@@ -1,0 +1,245 @@
+{
+    "report_name": "Answer Understanding Engine Test Report",
+    "total_tests": 6,
+    "results": [
+        {
+            "question_id": "SKILL_001",
+            "question": "What are your strongest technical skills?",
+            "answer": {
+                "raw_text": "I am strongest in Python, Django, React and SQL.",
+                "normalized_text": "i am strongest in python, django, react and sql."
+            },
+            "intent": {
+                "name": "skills",
+                "confidence": 0.9
+            },
+            "entities": {
+                "skills": [
+                    "react",
+                    "python",
+                    "sql",
+                    "django"
+                ],
+                "experience": {
+                    "years": null,
+                    "months": null,
+                    "raw_value": null
+                },
+                "salary": {
+                    "amount": null,
+                    "currency": "INR",
+                    "unit": null,
+                    "raw_value": null
+                },
+                "availability": {
+                    "available": null,
+                    "start_time": null,
+                    "immediate": false
+                },
+                "location": []
+            },
+            "quality": {
+                "off_topic": false,
+                "vague": false,
+                "missing_information": false,
+                "missing_reason": null
+            },
+            "timestamp": "2026-08-20T08:38:31.748651"
+        },
+        {
+            "question_id": "EXP_001",
+            "question": "How many years of experience do you have?",
+            "answer": {
+                "raw_text": "I have three years of experience in software development.",
+                "normalized_text": "i have three years of experience in software development."
+            },
+            "intent": {
+                "name": "experience",
+                "confidence": 0.7
+            },
+            "entities": {
+                "skills": [],
+                "experience": {
+                    "years": 3.0,
+                    "months": null,
+                    "raw_value": "3 years"
+                },
+                "salary": {
+                    "amount": null,
+                    "currency": "INR",
+                    "unit": null,
+                    "raw_value": null
+                },
+                "availability": {
+                    "available": null,
+                    "start_time": null,
+                    "immediate": false
+                },
+                "location": []
+            },
+            "quality": {
+                "off_topic": false,
+                "vague": false,
+                "missing_information": false,
+                "missing_reason": null
+            },
+            "timestamp": "2026-08-20T08:38:31.749651"
+        },
+        {
+            "question_id": "SALARY_001",
+            "question": "What are your salary expectations?",
+            "answer": {
+                "raw_text": "I am expecting around 6 LPA.",
+                "normalized_text": "i am expecting around 6 lpa."
+            },
+            "intent": {
+                "name": "salary",
+                "confidence": 0.6
+            },
+            "entities": {
+                "skills": [],
+                "experience": {
+                    "years": null,
+                    "months": null,
+                    "raw_value": null
+                },
+                "salary": {
+                    "amount": 6.0,
+                    "currency": "INR",
+                    "unit": "LPA",
+                    "raw_value": "6 lpa"
+                },
+                "availability": {
+                    "available": null,
+                    "start_time": null,
+                    "immediate": false
+                },
+                "location": []
+            },
+            "quality": {
+                "off_topic": false,
+                "vague": false,
+                "missing_information": false,
+                "missing_reason": null
+            },
+            "timestamp": "2026-08-20T08:38:31.749651"
+        },
+        {
+            "question_id": "NOTICE_001",
+            "question": "What is your notice period?",
+            "answer": {
+                "raw_text": "I can join immediately.",
+                "normalized_text": "i can join immediately."
+            },
+            "intent": {
+                "name": "availability",
+                "confidence": 0.8
+            },
+            "entities": {
+                "skills": [],
+                "experience": {
+                    "years": null,
+                    "months": null,
+                    "raw_value": null
+                },
+                "salary": {
+                    "amount": null,
+                    "currency": "INR",
+                    "unit": null,
+                    "raw_value": null
+                },
+                "availability": {
+                    "available": true,
+                    "start_time": "immediate",
+                    "immediate": true
+                },
+                "location": []
+            },
+            "quality": {
+                "off_topic": false,
+                "vague": false,
+                "missing_information": false,
+                "missing_reason": null
+            },
+            "timestamp": "2026-08-20T08:38:31.749651"
+        },
+        {
+            "question_id": "SKILL_001",
+            "question": "What are your strongest technical skills?",
+            "answer": {
+                "raw_text": "I watched a movie yesterday.",
+                "normalized_text": "i watched a movie yesterday."
+            },
+            "intent": {
+                "name": "off_topic",
+                "confidence": 0.75
+            },
+            "entities": {
+                "skills": [],
+                "experience": {
+                    "years": null,
+                    "months": null,
+                    "raw_value": null
+                },
+                "salary": {
+                    "amount": null,
+                    "currency": "INR",
+                    "unit": null,
+                    "raw_value": null
+                },
+                "availability": {
+                    "available": null,
+                    "start_time": null,
+                    "immediate": false
+                },
+                "location": []
+            },
+            "quality": {
+                "off_topic": true,
+                "vague": false,
+                "missing_information": true,
+                "missing_reason": "No recognizable skills found"
+            },
+            "timestamp": "2026-08-20T08:38:31.749651"
+        },
+        {
+            "question_id": "EXP_001",
+            "question": "How many years of experience do you have?",
+            "answer": {
+                "raw_text": "I don't know.",
+                "normalized_text": "i don't know."
+            },
+            "intent": {
+                "name": "off_topic",
+                "confidence": 0.75
+            },
+            "entities": {
+                "skills": [],
+                "experience": {
+                    "years": null,
+                    "months": null,
+                    "raw_value": null
+                },
+                "salary": {
+                    "amount": null,
+                    "currency": "INR",
+                    "unit": null,
+                    "raw_value": null
+                },
+                "availability": {
+                    "available": null,
+                    "start_time": null,
+                    "immediate": false
+                },
+                "location": []
+            },
+            "quality": {
+                "off_topic": true,
+                "vague": true,
+                "missing_information": true,
+                "missing_reason": "Experience duration not found"
+            },
+            "timestamp": "2026-08-20T08:38:31.749651"
+        }
+    ]
+}

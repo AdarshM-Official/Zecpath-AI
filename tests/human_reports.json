@@ -1,0 +1,50 @@
+[
+  {
+    "candidate_id": "C001",
+    "job_role": "Backend Developer",
+    "report": {
+      "report_metadata": {
+        "candidate_id": "C001",
+        "job_role": "Backend Developer",
+        "generated_at": "2026-08-20T08:00:00",
+        "final_recommendation": "Shortlist"
+      },
+      "executive_summary": {
+        "overall_score": 85,
+        "strengths": ["Strong overall screening performance (85/100)"],
+        "risks": [],
+        "missing_information": []
+      },
+      "recruiter_highlights": {
+        "salary_expectation": "Not Disclosed",
+        "availability": "Not Disclosed",
+        "confirmed_skills": ["python", "django", "flask"]
+      },
+      "detailed_qa_summary": []
+    }
+  },
+  {
+    "candidate_id": "C002",
+    "job_role": "Data Scientist",
+    "report": {
+      "report_metadata": {
+        "candidate_id": "C002",
+        "job_role": "Data Scientist",
+        "generated_at": "2026-08-20T08:01:00",
+        "final_recommendation": "Reject"
+      },
+      "executive_summary": {
+        "overall_score": 58,
+        "strengths": [],
+        "risks": ["Low overall screening performance (58/100)"],
+        "missing_information": ["Missing core ML skills"]
+      },
+      "recruiter_highlights": {
+        "salary_expectation": "Not Disclosed",
+        "availability": "Not Disclosed",
+        "confirmed_skills": []
+      },
+      "detailed_qa_summary": []
+    }
+  }
+]

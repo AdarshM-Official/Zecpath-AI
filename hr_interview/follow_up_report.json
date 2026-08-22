@@ -1,0 +1,74 @@
+{
+    "total_interactions": 3,
+    "question_states": {
+        "HR_STRENGTH_001": {
+            "follow_up_count": 2,
+            "responses": [
+                "Problem solving.",
+                "Problem solving is my main strength. I usually break difficult tasks into smaller problems and test different solutions systematically."
+            ],
+            "asked_follow_ups": [
+                "Could you explain that strength or improvement area in more detail?",
+                "Can you give a specific example that demonstrates this?"
+            ],
+            "completed": false
+        },
+        "HR_TEAM_001": {
+            "follow_up_count": 1,
+            "responses": [
+                "During my academic project, I worked with four team members. I handled the backend development and helped integrate our modules. We completed the project successfully before the deadline."
+            ],
+            "asked_follow_ups": [
+                "Suppose a team member strongly disagrees with your approach. How would you handle the situation?"
+            ],
+            "completed": false
+        }
+    },
+    "conversation_history": [
+        {
+            "timestamp": "2026-08-20T10:56:05.249342",
+            "question_id": "HR_STRENGTH_001",
+            "original_question": "What is your greatest professional strength?",
+            "category": "strengths_weaknesses",
+            "response": "Problem solving.",
+            "response_quality": "VAGUE",
+            "confidence_score": 0.6,
+            "follow_up_decision": {
+                "required": true,
+                "type": "CLARIFICATION",
+                "reason": "Response is missing or vague.",
+                "question": "Could you explain that strength or improvement area in more detail?"
+            }
+        },
+        {
+            "timestamp": "2026-08-20T10:56:05.250342",
+            "question_id": "HR_STRENGTH_001",
+            "original_question": "What is your greatest professional strength?",
+            "category": "strengths_weaknesses",
+            "response": "Problem solving is my main strength. I usually break difficult tasks into smaller problems and test different solutions systematically.",
+            "response_quality": "ADEQUATE",
+            "confidence_score": 0.82,
+            "follow_up_decision": {
+                "required": true,
+                "type": "EXAMPLE_BASED",
+                "reason": "Answer is valid but would benefit from a concrete example.",
+                "question": "Can you give a specific example that demonstrates this?"
+            }
+        },
+        {
+            "timestamp": "2026-08-20T10:56:05.251332",
+            "question_id": "HR_TEAM_001",
+            "original_question": "Tell me about a situation where you worked as part of a team.",
+            "category": "teamwork_culture_fit",
+            "response": "During my academic project, I worked with four team members. I handled the backend development and helped integrate our modules. We completed the project successfully before the deadline.",
+            "response_quality": "DETAILED",
+            "confidence_score": 0.9,
+            "follow_up_decision": {
+                "required": true,
+                "type": "SCENARIO_BASED",
+                "reason": "Strong response detected. Increasing question depth.",
+                "question": "Suppose a team member strongly disagrees with your approach. How would you handle the situation?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "weights": {
+    "relevance": 0.4,
+    "communication": 0.2,
+    "confidence": 0.2,
+    "consistency": 0.2
+  },
+  "normalize_by_length": true,
+  "relevance": {
+    "use_ats": true
+  }
+}

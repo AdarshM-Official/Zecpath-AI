@@ -1,0 +1,30 @@
+{
+  "candidates": [
+    {
+      "id": "cand_001_strong",
+      "name": "Alex Mercer",
+      "role": "senior",
+      "ats_score": 0.90,
+      "screening_score": 0.85,
+      "answers": [
+        "I am a senior developer with 8 years of experience. I specialize in backend systems, Python, and scalable cloud architectures. In my previous role, I led a team of five engineers to rebuild our core API.",
+        "When I disagree with a team member, I schedule a 1-on-1 to discuss the technical merits of both approaches. We try to rely on data and prototyping rather than opinions. Ultimately, we align on what is best for the product.",
+        "I was asked to implement a new Kubernetes cluster but had no prior DevOps experience. I spent my evenings taking a certified course, set up a sandbox environment, and successfully migrated our staging environment within three weeks."
+      ]
+    },
+    {
+      "id": "cand_002_needs_followup",
+      "name": "Jordan Lee",
+      "role": "junior",
+      "ats_score": 0.65,
+      "screening_score": 0.70,
+      "answers": [
+        "I am a recent grad.",
+        "Uh, I studied computer science and I like coding in python.",
+        "I don't really disagree with people much.",
+        "I try to talk it out.",
+        "I had to learn React for a class project. It took a few weeks."
+      ]
+    }
+  ]
+}

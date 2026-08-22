@@ -1,0 +1,13 @@
+{
+    "unknown": [
+        "John Doe Email: johndoe@gmail.com"
+    ],
+    "skills": [
+        "Professional Summary Backend Developer with 3 years experience in Python and Django.",
+        "Skills Python SQL AWS Docker React",
+        "Experience Software Engineer at ABC Company Developed REST APIs using Django. Worked with cloud deployment systems.",
+        "Education B.Tech in Computer Science XYZ University",
+        "Projects Built ATS Resume Parser Created AI Screening System",
+        "Certifications AWS Certified Cloud Practitioner"
+    ]
+}

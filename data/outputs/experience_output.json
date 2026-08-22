@@ -1,0 +1,28 @@
+{
+    "candidate_id": "C123",
+    "experience": {
+        "companies": [
+            "TCS",
+            "Infosys"
+        ],
+        "job_titles": [
+            "Software Engineer",
+            "Python Developer"
+        ],
+        "employment_periods": [
+            [
+                "Jan 2021",
+                "Mar 2023"
+            ],
+            [
+                "Apr 2023",
+                "Present"
+            ]
+        ],
+        "total_experience_years": 5.33,
+        "gaps": [],
+        "overlaps": 0,
+        "role_similarity": 0.67,
+        "relevance": "Moderately Relevant"
+    }
+}

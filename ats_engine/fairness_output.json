@@ -1,0 +1,10 @@
+{
+    "candidate_id": "C123",
+    "normalized_resume": "john doe email: [email] phone: [phone] date of birth: [dob] male pythonthon developer with react machine learning projects",
+    "normalized_score": 86.8,
+    "bias_indicators": [
+        "Gender Mention",
+        "Date of Birth"
+    ],
+    "fairness_status": "Review Required"
+}

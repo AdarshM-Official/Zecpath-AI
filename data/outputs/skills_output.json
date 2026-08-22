@@ -1,0 +1,53 @@
+{
+    "candidate_id": "C123",
+    "skills": [
+        {
+            "skill_name": "Communication",
+            "category": "Soft Skill",
+            "confidence": 0.75,
+            "source": "resume"
+        },
+        {
+            "skill_name": "Django",
+            "category": "Backend",
+            "confidence": 0.75,
+            "source": "resume"
+        },
+        {
+            "skill_name": "Express",
+            "category": "Backend",
+            "confidence": 0.75,
+            "source": "resume"
+        },
+        {
+            "skill_name": "Leadership",
+            "category": "Soft Skill",
+            "confidence": 0.75,
+            "source": "resume"
+        },
+        {
+            "skill_name": "Mongodb",
+            "category": "Database",
+            "confidence": 0.75,
+            "source": "resume"
+        },
+        {
+            "skill_name": "Node",
+            "category": "Backend",
+            "confidence": 0.75,
+            "source": "resume"
+        },
+        {
+            "skill_name": "Python",
+            "category": "Programming",
+            "confidence": 0.75,
+            "source": "resume"
+        },
+        {
+            "skill_name": "React",
+            "category": "Frontend",
+            "confidence": 0.75,
+            "source": "resume"
+        }
+    ]
+}

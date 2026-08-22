@@ -1,0 +1,21 @@
+{
+  "weights": {
+    "accuracy": 0.40,
+    "depth": 0.30,
+    "logic": 0.20,
+    "applicability": 0.10
+  },
+  "difficulty_multipliers": {
+    "1": 1.0,
+    "2": 1.2,
+    "3": 1.5
+  },
+  "shallow_answer_threshold": 10,
+  "deep_answer_threshold": 75,
+  "logic_markers": [
+    "because", "therefore", "however", "as a result",
+    "for example", "this means", "which leads to",
+    "alternatively", "in contrast", "the reason", "if",
+    "then", "so", "since", "consequently"
+  ]
+}

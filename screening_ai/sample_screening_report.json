@@ -1,0 +1,61 @@
+{
+    "report_metadata": {
+        "candidate_id": "C999",
+        "job_role": "Backend Developer",
+        "generated_at": "2026-08-20T08:51:47.617551",
+        "final_recommendation": "Shortlist"
+    },
+    "executive_summary": {
+        "overall_score": 82.5,
+        "strengths": [
+            "Excellent response regarding experience.",
+            "Excellent response regarding salary.",
+            "Excellent response regarding availability.",
+            "Strong overall screening performance (82.5/100)",
+            "Excellent response regarding skills."
+        ],
+        "risks": [
+            "Weak or concerning response regarding skills_specific."
+        ],
+        "missing_information": [
+            "Missing production experience for Docker/K8s"
+        ]
+    },
+    "recruiter_highlights": {
+        "salary_expectation": "6.0 LPA",
+        "availability": "Immediate",
+        "confirmed_skills": [
+            "python",
+            "django",
+            "react",
+            "sql"
+        ]
+    },
+    "detailed_qa_summary": [
+        {
+            "question": "What are your strongest technical skills?",
+            "answer_summary": "I am strongest in Python, Django, React and SQL.",
+            "score": 95
+        },
+        {
+            "question": "How many years of experience do you have?",
+            "answer_summary": "I have three years of experience in software development.",
+            "score": 90
+        },
+        {
+            "question": "What are your salary expectations?",
+            "answer_summary": "I am expecting around 6 LPA.",
+            "score": 85
+        },
+        {
+            "question": "What is your notice period?",
+            "answer_summary": "I can join immediately.",
+            "score": 90
+        },
+        {
+            "question": "Have you worked with Docker and Kubernetes?",
+            "answer_summary": "No, I haven't used them in production, only learning.",
+            "score": 45
+        }
+    ]
+}
