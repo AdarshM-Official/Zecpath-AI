@@ -1,0 +1,14 @@
+{
+  "backend_engineer_senior": {
+    "title": "Senior Backend Engineer",
+    "required_skills": ["Python", "System Design", "Microservices", "PostgreSQL", "Kafka"],
+    "experience_years": 5,
+    "role_type": "senior_developer"
+  },
+  "frontend_developer_junior": {
+    "title": "Junior Frontend Developer",
+    "required_skills": ["React", "JavaScript", "HTML", "CSS", "Git"],
+    "experience_years": 1,
+    "role_type": "junior_developer"
+  }
+}

@@ -1,47 +1,40 @@
-# Behavioral AI Design Document
+# Behavioral AI & Communication Scoring Design
+**Module:** `utils/communication_scoring.py`
 
-## 1. Objective
-Supplement the HR and Technical interview scoring with non-invasive behavioral signals captured via webcam during a video interview. The goal is to surface attention, engagement, and stress indicators that may not be visible in the transcript alone.
+Zecpath-AI does not just evaluate *what* a candidate says, but *how* they say it. The Behavioral AI layer analyzes textual responses and audio transcriptions to gauge fluency, confidence, and stress levels.
 
-> **Ethical Note:** All behavioral analysis must be disclosed to the candidate in the consent form. No signal is used as a sole disqualification criterion. Signals are advisory — they feed into the recruiter's context panel, not the automated score.
+## 1. NLP Tooling & Fallbacks
+The system uses heavy NLP libraries for behavioral analysis:
+- **NLTK (VADER):** Used for fast, rule-based sentiment analysis to detect frustration or extreme negativity.
+- **spaCy (`en_core_web_sm`):** Used for advanced Part-of-Speech (POS) tagging and grammatical complexity analysis.
 
----
+### The Windows / CI Fallback Pattern
+Due to Windows Application Control restrictions and container limitations, `spaCy` DLLs can sometimes fail to load. The `communication_scoring.py` module is wrapped in a fail-safe soft-dependency loader. If `spaCy` fails, the system automatically falls back to lightweight, regex-based heuristic parsing without crashing the interview.
 
-## 2. Observable Signal Categories
+## 2. Core Metrics Evaluated
 
-### 2.1 Eye Movement & Gaze Stability
-Tracked using a webcam + a lightweight gaze estimation library (e.g., OpenCV + dlib, or MediaPipe FaceMesh).
+The scoring engine calculates three primary sub-scores:
 
-| Signal | Description | Threshold |
-|---|---|---|
-| **Gaze-on-screen %** | % of time the candidate is looking at the camera/screen zone | <60% indicates distraction |
-| **Gaze deviation events** | Count of times gaze moves off-screen for >2 seconds | >5 events = high distraction |
-| **Reading pattern** | Horizontal left-right eye movement suggests reading from notes | Flagged if >3 clusters detected |
+### A. Fluency & Clarity (0-100)
+- Analyzes the structure of the sentences.
+- **Penalties:** Frequent use of filler words ("um", "uh", "like") or run-on sentences with poor punctuation lowers the score.
+- **Bias Mitigation:** A configurable `language_proficiency` toggle can reduce grammar penalties for non-native English speakers.
 
-### 2.2 Head Movement
-| Signal | Description | Threshold |
-|---|---|---|
-| **Head pose stability** | Variance of yaw/pitch/roll angles over time | High variance = restlessness |
-| **Nodding frequency** | Vertical head movement correlated with speech | Natural nodding is positive; excessive may indicate anxiety |
-| **Looking away events** | Sudden large yaw rotation (>30°) | >4 events per question = flag |
+### B. Confidence & Sentiment (0-100)
+- NLTK VADER assigns a compound polarity score `[-1.0, 1.0]`. 
+- High positive sentiment (e.g., "I successfully optimized...", "I am confident...") boosts the score.
+- Defensive or highly negative language (e.g., "I don't know why you are asking this") drops the score.
 
-### 2.3 Facial Engagement
-| Signal | Description |
-|---|---|
-| **Expression presence** | Are facial muscles active (engaged) or static (disengaged)? |
-| **Smile frequency** | Positive signal for confidence and rapport |
-| **Micro-expression frequency** | Rapid facial changes may signal stress or cognitive load |
+### C. Stress & Consistency (0-100)
+- The system checks for semantic contradictions across the interview timeline (e.g., claiming 10 years of Python experience in Question 1, but failing basic Python syntax in Question 3).
 
-### 2.4 Attention Patterns
-| Signal | Description |
-|---|---|
-| **Sustained attention windows** | Longest unbroken period of on-screen gaze |
-| **Recovery time** | How quickly candidate returns focus after a distraction |
-| **Peak distraction timestamps** | Times of greatest off-screen behavior (useful context for recruiters) |
-
----
-
-## 3. Non-Invasive Principles
-- **No emotion classification:** The system does not classify emotions as "happy", "sad", or "angry". It measures *engagement signals* (attention, focus) only.
-- **No biometric storage:** Raw video frames are processed in real-time and immediately discarded. Only derived signal scores are stored.
-- **Opt-in only:** If the candidate's device does not have a camera or they opt out, behavioral scoring is simply omitted from the report.
+## 3. Output Schema
+The generated HR scores are injected into the Unified Engine as follows:
+```json
+{
+  "relevance": 50.0,
+  "communication": 64.82,
+  "confidence": 84.67,
+  "consistency": 59.72
+}
+```

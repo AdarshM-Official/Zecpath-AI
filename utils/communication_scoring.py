@@ -1,17 +1,27 @@
 import json
 import os
 import re
-from typing import Dict, List
+from typing import Dict, List, Any
 
-import spacy
-from spacy.lang.en import English
-from spacy.tokens import Doc
+# Optional spacy import
+try:
+    import spacy
+    from spacy.lang.en import English
+    from spacy.tokens import Doc
+    _SPACY_AVAILABLE = True
+except ImportError:
+    _SPACY_AVAILABLE = False
+    spacy = None
+    English = None
+    Doc = Any
 
 # Load spaCy model lazily
 _nlp = None
 
-def get_nlp() -> spacy.language.Language:
+def get_nlp() -> Any:
     global _nlp
+    if not _SPACY_AVAILABLE:
+        return None
     if _nlp is None:
         try:
             _nlp = spacy.load("en_core_web_sm")
@@ -20,6 +30,7 @@ def get_nlp() -> spacy.language.Language:
             _nlp = English()
             _nlp.add_pipe("sentencizer")
     return _nlp
+
 
 # Load configuration
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "..", "config", "communication_config.json")
@@ -44,75 +55,72 @@ FILLER_SET = set(word.lower() for word in CONFIG.get("filler_words", []))
 WEIGHTS = CONFIG.get("weights", {})
 
 # Helper utilities
-def _sentences(doc: Doc) -> List[Doc]:
-    return list(doc.sents)
+def _sentences(text: str) -> List[Any]:
+    nlp = get_nlp()
+    if nlp is None:
+        return [s for s in text.replace("!", ".").replace("?", ".").split(".") if s.strip()]
+    return list(nlp(text).sents)
 
 def _tokenize(text: str) -> List[str]:
-    return [t.text for t in get_nlp()(text)]
+    nlp = get_nlp()
+    if nlp is None:
+        return re.findall(r"\b\w+\b", text)
+    return [t.text for t in nlp(text)]
 
 # Metric implementations
 def measure_fluency(text: str) -> float:
-    """Estimate fluency via average sentence length and transition word count.
-    Returns a score in the range 0‑1.
-    """
+    """Estimate fluency via average sentence length and transition word count."""
     nlp = get_nlp()
+    if nlp is None:
+        return 0.5 # Neutral fallback
     doc = nlp(text)
-    sentences = _sentences(doc)
+    sentences = list(doc.sents)
     if not sentences:
         return 0.0
     avg_len = sum(len(sent) for sent in sentences) / len(sentences)
-    # transition words list (simple heuristic)
     transitions = {"however", "therefore", "moreover", "thus", "consequently"}
     transition_hits = sum(1 for token in doc if token.text.lower() in transitions)
     score = (avg_len / 20) * 0.7 + (transition_hits / len(doc)) * 0.3
     return min(max(score, 0.0), 1.0)
 
 def measure_grammar(text: str) -> float:
-    """Very light grammar check: count of tokens that are flagged as "X" (punctuation) vs normal.
-    A more sophisticated approach would use a grammar‑check library; here we approximate.
-    Returns 0‑1 where higher is better.
-    """
+    """Very light grammar check."""
     nlp = get_nlp()
+    if nlp is None:
+        return 0.5 # Neutral fallback
     doc = nlp(text)
     if not doc:
         return 0.0
-    # simple heuristic: proportion of tokens that are not punctuation or space and have a POS tag
     grammatical = sum(1 for token in doc if token.pos_ not in {"PUNCT", "SPACE"})
     score = grammatical / len(doc)
     return min(max(score, 0.0), 1.0)
 
 def measure_vocabulary(text: str) -> float:
-    """Lexical diversity: type‑token ratio adjusted for rare word frequency.
-    Returns 0‑1.
-    """
+    """Lexical diversity: type-token ratio adjusted for rare word frequency."""
     tokens = _tokenize(text)
     if not tokens:
         return 0.0
     types = set(tok.lower() for tok in tokens)
     ttr = len(types) / len(tokens)
-    # simple rare‑word boost: count words longer than 7 characters
     rare = sum(1 for tok in tokens if len(tok) > 7)
     score = ttr * 0.7 + (rare / len(tokens)) * 0.3
     return min(max(score, 0.0), 1.0)
 
 def measure_clarity(text: str) -> float:
-    """Readability via Flesch‑Kincaid grade level and active‑voice proportion.
-    Returns 0‑1 where higher is clearer.
-    """
+    """Readability via Flesch-Kincaid grade level and active-voice proportion."""
     nlp = get_nlp()
+    if nlp is None:
+        return 0.5 # Neutral fallback
     doc = nlp(text)
-    sentences = _sentences(doc)
+    sentences = list(doc.sents)
     if not sentences:
         return 0.0
-    # Flesch‑Kincaid readability (higher grade = harder)
     words = [token.text for token in doc if token.is_alpha]
     syllables = sum(_count_syllables(word) for word in words)
     words_per_sentence = len(words) / len(sentences)
     syllables_per_word = syllables / max(len(words), 1)
     fk_grade = 0.39 * words_per_sentence + 11.8 * syllables_per_word - 15.59
-    # Normalize: lower grade is better; map 0‑12 to 1.0, >12 to lower scores
     readability_score = max(0.0, 1.0 - (fk_grade - 5) / 10)
-    # Active voice proportion (very approximate: counts of "be" + past participle)
     passive_hits = sum(1 for token in doc if token.lemma_ == "be" and token.tag_ in {"VBN", "VBD"})
     passive_ratio = passive_hits / max(len(doc), 1)
     active_score = 1.0 - passive_ratio

@@ -43,32 +43,38 @@ class HiringReportGenerator:
         md.append("\n---\n")
 
         # Executive Summary
-        md.append("## 1. Executive Summary")
-        md.append(f"- **Final Recommendation:** **{recommendation}** (Confidence: {confidence}%)")
-        md.append(f"- **Hiring Fit Score:** {hiring_fit} / 100")
-        md.append(f"- **Integrity Risk:** {integrity_risk}")
-        md.append(f"- **Behavioral Stress:** {beh_risk_label} ({behavioral_risk}/100)")
+        md.append("## 1. Executive Summary\n")
+        
+        # Color coding/emoji based on decision
+        decision_badge = "🟢 **SELECTED**" if recommendation == "SELECTED" else "🟡 **HOLD REVIEW**" if recommendation == "HOLD_REVIEW" else "🔴 **REJECTED**"
+        
+        md.append(f"> [!IMPORTANT]")
+        md.append(f"> **Final Recommendation:** {decision_badge} (Confidence: {confidence}%)")
+        md.append(f"> **Hiring Fit Score:** {hiring_fit} / 100\n")
+        
+        md.append(f"- **Integrity Risk:** `{integrity_risk}`")
+        md.append(f"- **Behavioral Stress:** `{beh_risk_label}` ({behavioral_risk}/100)")
         md.append(f"\n*AI Explanation:*\n> {explanation.replace(chr(10), chr(10)+'> ')}")
         md.append("\n---\n")
 
         # Strengths & Weaknesses
         md.append("## 2. Strengths & Weaknesses\n")
-        md.append("**Key Strengths:**")
+        md.append("### 💪 Key Strengths")
         for s in strengths:
             md.append(f"- {s}")
         
-        md.append("\n**Key Weaknesses:**")
+        md.append("\n### ⚠️ Key Weaknesses")
         for w in weaknesses:
             md.append(f"- {w}")
         md.append("\n---\n")
 
         # Stage-by-Stage
         md.append("## 3. Stage-by-Stage Breakdown\n")
-        md.append("| Stage | Score |")
-        md.append("|---|---|")
+        md.append("| Stage | Normalized Score (0-100) |")
+        md.append("|:---|:---:|")
         for stage, score in round_scores.items():
             fmt_stage = stage.replace('_', ' ').title()
-            md.append(f"| **{fmt_stage}** | {score} |")
+            md.append(f"| **{fmt_stage}** | `{score}` |")
         md.append("\n---\n")
 
         # Risk & Anomaly Indicators
@@ -76,11 +82,15 @@ class HiringReportGenerator:
         
         flags = master_data.get("integrity_report", {}).get("flags", [])
         if flags:
-            md.append("**Integrity Alerts:**")
+            md.append("> [!WARNING]")
+            md.append("> **Integrity Alerts:**")
             for f in flags:
-                md.append(f"- [{f.get('severity', 'UNK')}] {f.get('description', '')}")
+                sev = f.get('severity', 'UNK')
+                emoji = "🚨" if sev == "HIGH" else "⚠️" if sev == "MEDIUM" else "ℹ️"
+                md.append(f"> - {emoji} **[{sev}]** {f.get('description', '')}")
         else:
-            md.append("**Integrity Alerts:**\n- *None.*")
+            md.append("> [!NOTE]")
+            md.append("> **Integrity Alerts:** None detected.")
 
         md.append("\n**Behavioral Alerts:**")
         beh_note = master_data.get("behavioral_report", {}).get("behavioral_context", {}).get("recruiter_note", "")

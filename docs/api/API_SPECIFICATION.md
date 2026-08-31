@@ -1,92 +1,112 @@
-# API Specification
+# Zecpath-AI API Specification
 
-This document outlines the proposed RESTful API endpoints for integrating the Zecpath-AI HR Interview engine with external applications (e.g., a web frontend or ATS platform).
+## Overview
+The Zecpath-AI API is a RESTful service powered by a Waitress WSGI server, designed to handle high-concurrency interview interactions. All data is exchanged in `application/json` format. 
 
-## Base URL
-`POST /api/v1/interview`
+## Standardized Error Handling
+As of Day 65, all API endpoints are guaranteed to return a standardized JSON error schema upon failure. The system traps `Internal Server Errors` natively, preventing connection drops.
 
----
-
-### 1. Start Interview
-Initializes a new interview session and retrieves the first question.
-
-*   **Endpoint:** `POST /start`
-*   **Payload:**
-    ```json
-    {
-      "candidate_id": "c_12345",
-      "role": "senior_developer",
-      "ats_score": 0.85,
-      "screening_score": 0.90
-    }
-    ```
-*   **Response (200 OK):**
-    ```json
-    {
-      "session_id": "sess_9876",
-      "state": "WAITING_FOR_ANSWER",
-      "message": "Tell me about a time you faced a difficult challenge at work."
-    }
-    ```
+**Error Response Schema:**
+```json
+{
+  "error": true,
+  "code": 400,
+  "message": "Invalid input data",
+  "details": "candidate_id is required"
+}
+```
 
 ---
 
-### 2. Process Candidate Message
-Submits a candidate's answer and receives the AI's next prompt (either a follow-up or the next question).
+## 1. Start Interview Session
 
-*   **Endpoint:** `POST /{session_id}/message`
-*   **Payload:**
-    ```json
-    {
-      "answer": {
-        "raw_text": "We had a production outage and I fixed it by reverting the database."
-      }
-    }
-    ```
-*   **Response (200 OK):**
-    ```json
-    {
-      "state": "FOLLOW_UP",
-      "message": "Could you provide more detail on how you coordinated with your team during that outage?"
-    }
-    ```
-*   **Response (Interview Complete):**
-    ```json
-    {
-      "state": "CLOSING",
-      "message": "That covers all my questions. Thank you for your time!"
-    }
-    ```
+**Endpoint:** `POST /api/v1/interview/start`
+**Description:** Initializes a new finite state machine instance for the candidate.
+
+### Request Body
+```json
+{
+  "candidate_id": "c_12345",
+  "role": "senior_developer",
+  "ats_score": 0.85,
+  "screening_score": 0.90
+}
+```
+*Note: `ats_score` and `screening_score` must be float values between `0.0` and `1.0`.*
+
+### Success Response (200 OK)
+```json
+{
+  "session_id": "sess_8f3a9b1-...",
+  "state": "GREETING",
+  "message": "Hello! Thank you for joining. Let's get started. Could you briefly introduce yourself and your background?"
+}
+```
 
 ---
 
-### 3. Fetch Final Report
-Retrieves the aggregated scores and explanation notes after the interview reaches the `CLOSING` state.
+## 2. Process Interview Message
 
-*   **Endpoint:** `GET /{session_id}/report`
-*   **Response (200 OK):**
-    ```json
-    {
-      "candidate_id": "c_12345",
-      "role": "senior_developer",
-      "hiring_fit_percent": 88.5,
-      "breakdown": {
-        "ats": 0.85,
-        "screening": 0.90,
-        "hr_interview": 0.92
-      },
-      "hr_details": {
-        "relevance": 95.0,
-        "consistency": 100.0,
-        "explainability_note": "Strongest indicator: consistency. Weakest indicator: communication."
-      }
-    }
-    ```
+**Endpoint:** `POST /api/v1/interview/<session_id>/message`
+**Description:** Submits a candidate's response to the AI. The NLP engine evaluates the text, updates the behavioral metrics, and responds.
+
+### Request Body
+```json
+{
+  "raw_text": "I have 5 years of experience building microservices with Python and Kubernetes."
+}
+```
+*Alternatively, nested JSON is supported: `{"answer": {"raw_text": "..."}}`*
+
+### Success Response (200 OK)
+```json
+{
+  "state": "ASKING",
+  "message": "Great. Next question: Can you describe a time you had to optimize a slow database query?"
+}
+```
+
+### Error Responses
+- **404 Not Found:** If `session_id` does not exist or has expired.
+- **400 Bad Request:** If `raw_text` is empty, or if the interview state is `CLOSING` or `TERMINATED`.
 
 ---
 
-### 4. Delete Candidate Data (GDPR/CCPA)
-Purges all PII, transcripts, and scores for a given candidate.
+## 3. Retrieve Hiring Report
 
-*   **Endpoint:** `DELETE /candidate/{candidate_id}`
-*   **Response (204 No Content)**
+**Endpoint:** `GET /api/v1/interview/<session_id>/report`
+**Description:** Fetches the finalized scoring breakdown once the interview reaches the `CLOSING` state.
+
+### Success Response (200 OK)
+```json
+{
+  "candidate_id": "c_12345",
+  "role": "senior_developer",
+  "hiring_fit_percent": 84.5,
+  "breakdown": {
+    "ats": 0.85,
+    "screening": 0.90,
+    "hr": 0.82,
+    "technical": 0.0,
+    "machine_test": 0.0
+  },
+  "unified_score": {
+    "hiring_fit_percent": 84.5,
+    "transparency_log": "ATS (15% weight): provided ... Final Score"
+  }
+}
+```
+
+### Error Responses
+- **400 Bad Request:** `"Interview is still in progress."` (Returned if the state machine has not concluded).
+- **404 Not Found:** `"Report not found."`
+
+---
+
+## 4. Purge Candidate Data (GDPR Compliance)
+
+**Endpoint:** `DELETE /api/v1/candidate/<candidate_id>`
+**Description:** Purges all session memory, reports, and persistent data related to the candidate to comply with data retention policies.
+
+### Success Response (204 No Content)
+*(No body returned)*

@@ -1,0 +1,59 @@
+[
+  {
+    "candidate_id": "c_alex_senior_01",
+    "name": "Alex Mercer",
+    "role_key": "backend_engineer_senior",
+    "mock_async_results": {
+      "ats_score": 0.92,
+      "screening_score": 0.88,
+      "machine_test_score": 0.85
+    },
+    "behavioral_context": {
+      "gaze_deviations": 2,
+      "tab_switches": 0
+    },
+    "interview_responses": [
+      "I am a backend engineer with 7 years of experience. I previously led the migration of a monolithic application to a microservices architecture using Python and Kubernetes, which reduced latency by 40%.",
+      "I strongly believe in relying on data rather than opinions. When I disagree with a colleague, I propose we write a quick prototype or look at metrics to decide the best path.",
+      "To design a scalable system, I would use an API gateway routing to stateless microservices. For caching, Redis is excellent, and for asynchronous event processing, I'd rely on Kafka."
+    ]
+  },
+  {
+    "candidate_id": "c_jordan_junior_02",
+    "name": "Jordan Lee",
+    "role_key": "frontend_developer_junior",
+    "mock_async_results": {
+      "ats_score": 0.65,
+      "screening_score": 0.55,
+      "machine_test_score": 0.50
+    },
+    "behavioral_context": {
+      "gaze_deviations": 15,
+      "tab_switches": 2
+    },
+    "interview_responses": [
+      "Uh, I just graduated and I like coding in React. I made a weather app for my final project.",
+      "I don't really disagree with people much. I usually just do what the senior developer tells me to do.",
+      "I guess I would use a database to store things. Maybe SQL. I haven't really built anything that big before."
+    ]
+  },
+  {
+    "candidate_id": "c_casey_suspicious_03",
+    "name": "Casey Smith",
+    "role_key": "backend_engineer_senior",
+    "mock_async_results": {
+      "ats_score": 0.95,
+      "screening_score": 0.90,
+      "machine_test_score": 0.98
+    },
+    "behavioral_context": {
+      "gaze_deviations": 45,
+      "tab_switches": 12
+    },
+    "interview_responses": [
+      "I am a highly experienced backend developer. I have worked on many projects.",
+      "I never disagree with my team. No, wait, I mean I always not agree if it is a bad idea.",
+      "The time complexity of a hash map lookup is O(1) average case and O(N) worst case if there are many collisions in the same bucket."
+    ]
+  }
+]

@@ -21,6 +21,12 @@ REPORTS = {}
 retention_manager = DataRetentionManager(storage_dir="candidates")
 
 
+def _error_response(code: int, message: str, details: str = None):
+    resp = {"error": True, "code": code, "message": message}
+    if details:
+        resp["details"] = details
+    return jsonify(resp), code
+
 @app.route("/api/v1/interview/start", methods=["POST"])
 def start_interview():
     try:
@@ -32,7 +38,7 @@ def start_interview():
         screening_score = float(data.get("screening_score", 0.5))
 
         if not candidate_id:
-            return jsonify({"error": "candidate_id is required"}), 400
+            return _error_response(400, "candidate_id is required")
 
         session_id = "sess_" + str(uuid.uuid4())
 
@@ -55,29 +61,29 @@ def start_interview():
         }), 200
 
     except (ValueError, TypeError) as e:
-        return jsonify({"error": f"Invalid input data: {str(e)}"}), 400
+        return _error_response(400, "Invalid input data", str(e))
     except Exception as e:
-        return jsonify({"error": f"Internal server error: {str(e)}"}), 500
+        return _error_response(500, "Internal server error", str(e))
 
 
 @app.route("/api/v1/interview/<session_id>/message", methods=["POST"])
 def process_message(session_id):
     try:
         if session_id not in SESSIONS:
-            return jsonify({"error": "Invalid session_id"}), 404
+            return _error_response(404, "Invalid session_id")
 
         data = request.get_json(silent=True) or {}
         # Support both flat {"raw_text": "..."} and nested {"answer": {"raw_text": "..."}}
         raw_text = data.get("raw_text") or data.get("answer", {}).get("raw_text", "")
 
         if not str(raw_text).strip():
-            return jsonify({"error": "Response text is required"}), 400
+            return _error_response(400, "Response text is required")
 
         session = SESSIONS[session_id]
         flow = session["flow"]
 
         if flow.state in [ConversationState.CLOSING, ConversationState.TERMINATED]:
-            return jsonify({"error": "Interview is already complete"}), 400
+            return _error_response(400, "Interview is already complete")
 
         response = flow.process_event("answer", payload=raw_text)
 
@@ -94,7 +100,7 @@ def process_message(session_id):
         }), 200
 
     except Exception as e:
-        return jsonify({"error": f"Internal server error: {str(e)}"}), 500
+        return _error_response(500, "Internal server error", str(e))
 
 
 @app.route("/api/v1/interview/<session_id>/report", methods=["GET"])
@@ -110,9 +116,9 @@ def get_report(session_id):
         }), 200
         
     if session_id in SESSIONS:
-        return jsonify({"error": "Interview is still in progress."}), 400
+        return _error_response(400, "Interview is still in progress.")
         
-    return jsonify({"error": "Report not found"}), 404
+    return _error_response(404, "Report not found")
 
 
 @app.route("/api/v1/candidate/<candidate_id>", methods=["DELETE"])
