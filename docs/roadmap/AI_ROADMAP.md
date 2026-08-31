@@ -1,51 +1,45 @@
-# Zecpath-AI Product Roadmap
+# Zecpath-AI Future Roadmap & Innovation Proposal
+**Target Audience:** Engineering Leadership, Product Management
+**Current Status:** V2.0 (Production API Released)
 
-## Phase 1: Current System (v1.0) – Production-Ready
-*Days 1–57 | Status: Complete*
-
-The core Zecpath-AI pipeline is feature-complete. It covers the full candidate lifecycle from resume parsing to a final hiring recommendation, with behavioral AI design, malpractice detection, and governance documentation.
-
-**Capabilities:**
-- ATS Parsing & Screening
-- HR Interview AI (Conversation Flow, Follow-Up Engine)
-- Technical Interview (Score-Based Depth & Logic)
-- Cross-Round Score Aggregation (Unified Engine)
-- Final Recommendation Engine (Hybrid Rule + Score)
-- Integrity Detection (Threshold + Pattern Rules)
-- Hiring Intelligence Report Generator
-- AI Ethics, Compliance, and Governance Documentation
+## Overview
+Over the past 69 days, the foundation for Zecpath-AI was laid, transitioning the product from concept to a hardened, stateless microservice pipeline. This document outlines the strategic innovation roadmap for V3.0 and beyond, focusing on integrating deeper LLM capabilities, real-time analytics, and candidate coaching.
 
 ---
 
-## Phase 2: Enhanced Intelligence (v1.5) – Q4 2026
-*Target: 3 months post v1.0*
+## Phase 1 (Q3): Large Language Model (LLM) Integration
 
-| Feature | Description | Priority |
-|---|---|---|
-| **Real-Time AI Coaching Panel** | A recruiter-side overlay that shows live candidate confidence signals and suggests better probing questions in real-time | HIGH |
-| **Candidate Improvement Suggestions** | At end of interview, generate a personalized improvement report for the candidate (e.g., "Your communication score was strong, but your system design depth could improve") | HIGH |
-| **Interview Analytics Dashboard** | Web-based recruiter dashboard showing aggregated AI decision trends, score distributions, and round-by-round performance heatmaps | MEDIUM |
-| **Multi-Language Support** | Extend the NLP pipeline to support Hindi, Arabic, and Spanish interviews | MEDIUM |
+### The Goal
+Upgrade the `TechScoringEngine` and `InterviewConversationFlow`.
+Currently, the system relies on regex heuristics and NLTK/spaCy sentiment analysis. While highly performant and predictable, it struggles to evaluate highly nuanced, open-ended system design questions.
 
----
-
-## Phase 3: Deep AI Integration (v2.0) – Q2 2027
-*Target: 9 months post v1.0*
-
-| Feature | Description | Priority |
-|---|---|---|
-| **AI Video Analysis (Computer Vision)** | Implement the behavioral AI modules designed on Day 48 using MediaPipe FaceMesh for real gaze and head pose estimation | HIGH |
-| **Emotion Detection (Valence-Only)** | Detect valence (positive/neutral/negative affect) using micro-expression analysis — explicitly excluding emotion labeling to avoid cultural bias | MEDIUM |
-| **LLM-Powered Answer Evaluation** | Replace heuristic concept-matching in the Technical Scoring Engine with an LLM judge that can evaluate semantic correctness | HIGH |
-| **Adaptive Question Generation** | Use an LLM to dynamically generate new technical questions based on the candidate's last answer, rather than pulling from a static bank | HIGH |
+### Execution Strategy
+1. **Local Quantized Models:** Integrate a locally hosted model like `Llama-3 8B-Instruct` using `llama.cpp` or `vLLM` to maintain the current $0.05/eval cost structure while avoiding OpenAI API latency and data-privacy concerns.
+2. **Context-Aware Follow-Ups:** Replace the finite state machine with an LLM Agent capable of asking dynamic, probing follow-up questions based on the candidate's previous response.
 
 ---
 
-## Phase 4: Scaling & Enterprise (v3.0) – 2028
-*Target: 18 months post v1.0*
+## Phase 2 (Q4): The Recruiter Dashboard & WebSocket Streaming
 
-| Feature | Description | Priority |
-|---|---|---|
-| **Multi-Tenant SaaS Architecture** | Deploy as an isolated multi-tenant service supporting hundreds of companies with dedicated data partitions | HIGH |
-| **Continuous Learning Loop** | Integrate recruiter feedback on AI decisions to fine-tune scoring weights over time using RLHF techniques | HIGH |
-| **Structured Hiring Graph** | Build a knowledge graph connecting candidates, roles, skills, and outcomes to surface non-obvious matches | MEDIUM |
+### The Goal
+Move recruiters out of Markdown files and into a rich, interactive web portal.
+
+### Execution Strategy
+1. **Next.js Frontend:** Build the visual dashboard designed in `docs/monitoring/DASHBOARD_DESIGN.md`. 
+2. **WebSocket API:** Refactor `hr_interview_api.py` from synchronous HTTP REST to WebSockets. This will eliminate UI latency ("dead air") for candidates during the interview, allowing the AI to stream its conversational text chunks in real-time.
+3. **Live Telemetry:** Stream `MalpracticeDetector` events to the recruiter dashboard so human reviewers can intervene in a live interview if a candidate triggers a `CRITICAL` tab-switch threshold.
+
+---
+
+## Phase 3 (Next Year): The AI Coaching Ecosystem
+
+### The Goal
+Transform Zecpath-AI from just an evaluation tool into a candidate enablement platform. Candidate rejection is currently a negative UX. We can monetize and improve UX by offering feedback.
+
+### Execution Strategy
+1. **Actionable Improvement Reports:** Instead of just sending a rejection email, the `HiringReportGenerator` will generate a secondary "Candidate Facing" report.
+2. **Skill Gap Analysis:** "You were rejected because your understanding of Kafka consumer groups was weak. Here are 3 resources to study."
+3. **Mock Interview Subscriptions:** Candidates can pay to practice against the Zecpath-AI system in "Coaching Mode" to improve their communication and technical delivery before applying to actual enterprise roles.
+
+---
+*Roadmap Authored at the conclusion of the Zecpath-AI Internship Program.*
